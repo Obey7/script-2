@@ -1,0 +1,131 @@
+-- Made By Obey 7
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local jailbreak = Instance.new("TextButton")
+local madcity = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local autorob = Instance.new("TextButton")
+local anime = Instance.new("TextButton")
+local jojo = Instance.new("TextButton")
+local dio = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+main.Position = UDim2.new(0.117772326, 0, 0.273488194, 0)
+main.Size = UDim2.new(0, 448, 0, 276)
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel.Position = UDim2.new(0, 0, -0.0056351372, 0)
+TextLabel.Size = UDim2.new(0, 448, 0, 26)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Made by Obey 7 sub to obey 7 on youtube or you gay"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+jailbreak.Name = "jailbreak"
+jailbreak.Parent = main
+jailbreak.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+jailbreak.Position = UDim2.new(0.17958492, 0, 0.204492033, 0)
+jailbreak.Size = UDim2.new(0, 157, 0, 50)
+jailbreak.Font = Enum.Font.GothamBold
+jailbreak.Text = "Jalibreak script"
+jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+jailbreak.TextSize = 14.000
+jailbreak.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
+end)
+
+madcity.Name = "madcity"
+madcity.Parent = main
+madcity.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+madcity.Position = UDim2.new(0.614329517, 0, 0.20811522, 0)
+madcity.Size = UDim2.new(0, 156, 0, 50)
+madcity.Font = Enum.Font.GothamBold
+madcity.Text = "Mad City script"
+madcity.TextColor3 = Color3.fromRGB(255, 255, 255)
+madcity.TextSize = 14.000
+madcity.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLads.lua",true))()
+end)
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_2.Position = UDim2.new(-0.0004844293, 0, 0.091923967, 0)
+TextLabel_2.Size = UDim2.new(0, 72, 0, 250)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = main
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextLabel_3.Position = UDim2.new(0, 0, 0.0905797109, 0)
+TextLabel_3.Size = UDim2.new(0, 71, 0, 40)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "more"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+autorob.Name = "autorob"
+autorob.Parent = main
+autorob.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+autorob.Position = UDim2.new(0.177917346, 0, 0.766264319, 0)
+autorob.Size = UDim2.new(0, 157, 0, 52)
+autorob.Font = Enum.Font.GothamBold
+autorob.Text = "Jailbeak Auto Farm"
+autorob.TextColor3 = Color3.fromRGB(255, 255, 255)
+autorob.TextSize = 14.000
+autorob.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Q7aR7Hcc",true))()
+end)
+
+anime.Name = "anime"
+anime.Parent = main
+anime.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+anime.Position = UDim2.new(0.613595009, 0, 0.769539833, 0)
+anime.Size = UDim2.new(0, 155, 0, 49)
+anime.Font = Enum.Font.GothamBold
+anime.Text = "Anime Fighting Simu"
+anime.TextColor3 = Color3.fromRGB(255, 255, 255)
+anime.TextSize = 14.000
+anime.MouseButton1Down:connect(function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/nY2WC60k"))()
+end)
+
+jojo.Name = "jojo"
+jojo.Parent = main
+jojo.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+jojo.Position = UDim2.new(0.178487435, 0, 0.506979287, 0)
+jojo.Size = UDim2.new(0, 157, 0, 47)
+jojo.Font = Enum.Font.GothamBold
+jojo.Text = "A Bizarre Day"
+jojo.TextColor3 = Color3.fromRGB(255, 255, 255)
+jojo.TextSize = 14.000
+jojo.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreHackRe"),true))()
+end)
+
+dio.Name = "dio"
+dio.Parent = main
+dio.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+dio.LayoutOrder = 1
+dio.Position = UDim2.new(0.614329457, 0, 0.5289855, 0)
+dio.Size = UDim2.new(0, 156, 0, 40)
+dio.Font = Enum.Font.GothamBold
+dio.Text = "A Bizarre Day Modded"
+dio.TextColor3 = Color3.fromRGB(255, 255, 255)
+dio.TextSize = 14.000
+dio.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreMod",true))()
+end)

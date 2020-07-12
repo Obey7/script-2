@@ -1,0 +1,102 @@
+-- Click F9 for the stat logs
+
+-- Settings
+R, G, B = 255, 82, 255 -- Change color of your hotbar (CCG default = 4, 175, 236, Ghoul default = 200, 0, 0)
+local plr = game.Players.NAME -- Change NAME to the name of your victim
+
+
+-- Script
+local lvl = plr.PlayerFolder.Stats.Level.Value
+local xp = plr.PlayerFolder.Stats.Experience.Value
+local yen = plr.PlayerFolder.Stats.Yen.Value
+local rc = plr.PlayerFolder.Stats.RC.Value
+local repu = plr.PlayerFolder.Stats.Reputation.Value
+local phys = plr.PlayerFolder.Stats.Physical.Value
+local kaqu = plr.PlayerFolder.Stats.Weapon.Value
+local spd = plr.PlayerFolder.Stats.Speed.Value
+local dur = plr.PlayerFolder.Stats.Durability.Value
+local focus = plr.PlayerFolder.Stats.Focus.Value
+local eto = plr.PlayerFolder.BossKills.Eto.Value
+local fact = plr.PlayerFolder.Settings.Faction.Value
+local spawn = plr.PlayerFolder.Settings.SpawnLocation.Value
+local yen2 = plr.PlayerFolder.Gamepass.Yen2.Value
+local exp2 = plr.PlayerFolder.Gamepass.Exp2.Value
+local rep2 = plr.PlayerFolder.Gamepass.Rep2.Value
+local th = plr.PlayerFolder.Gamepass.TrainHalf.Value
+local allie = plr.PlayerFolder.Allied.Name
+local weap = plr.PlayerFolder.Customization.Weapon.Value
+local wpc = plr.PlayerFolder.Customization.WeaponPrimaryColor.Value
+local wsc = plr.PlayerFolder.Customization.WeaponSecondaryColor.Value
+local side = plr.PlayerFolder.Customization.Team.Value
+local maskk = plr.PlayerFolder.Customization.Mask.Value
+local mnn = plr.PlayerFolder.Customization.Nickname.Value
+local gtn = plr.PlayerFolder.Trainers.GhoulTrainer.Value
+local ctn = plr.PlayerFolder.Trainers.CCGTrainer.Value
+local crs1 = plr.PlayerFolder.Trainers.CCGRosterSlot1.Value
+local crs2 = plr.PlayerFolder.Trainers.CCGRosterSlot2.Value
+local crs3 = plr.PlayerFolder.Trainers.CCGRosterSlot3.Value
+local grs1 = plr.PlayerFolder.Trainers.GhoulRosterSlot1.Value
+local grs2 = plr.PlayerFolder.Trainers.GhoulRosterSlot2.Value
+local grs3 = plr.PlayerFolder.Trainers.GhoulRosterSlot3.Value
+
+print ("------------------")
+print (plr)
+print ("Team: "..side)
+print ("------------------")
+print ("Level:                   "..lvl)
+print ("Exp:                     "..xp)
+print ("Yen:                     "..yen)
+print ("RC:                      "..rc)
+print ("Reputation:              "..repu)
+print ("Physical Points:         "..phys)
+print ("Kagune/Quinque Points:   "..kaqu)
+print ("Speed Points:            "..spd)
+print ("Durability Points:       "..dur)
+print ("Focus Points:            "..focus)
+print (" ")
+print ("Kagune/Quinque:          "..weap)
+print ("Primary Color:           "..wpc)
+print ("Secondary Color:         "..wsc)
+print (" ")
+print ("Eto Boss Kills:          "..eto)
+print ("Faction:                 "..fact)
+print ("Mask Name:               "..maskk)
+print ("Mask Nickname:           "..mnn)
+print ("Spawn Location:          "..spawn)
+for i,v in pairs(plr.PlayerFolder.Allied:GetChildren()) do
+   if v:IsA("Folder") then
+       print("Allies:                  "..tostring(v));
+       v.Parent = plr.PlayerFolder.Allied;
+   end
+end
+print (" ")
+print ("2x Yen Gamepass:         "..tostring(yen2))
+print ("2x Exp Gamepass:         "..tostring(exp2))
+print ("2X Rep Gamepass:         "..tostring(rep2))
+print ("Halved Trainer Gamepass: "..tostring(th))
+print (" ")
+print ("Current Ghoul Trainer:   "..gtn)
+print ("Current CCG Trainer:     "..ctn)
+print ("CCG Roster Slot 1: "..tostring(crs1))
+print ("CCG Roster Slot 2: "..tostring(crs2))
+print ("CCG Roster Slot 3: "..tostring(crs3))
+print ("Ghoul Roster Slot 1: "..tostring(grs1))
+print ("Ghoul Roster Slot 2: "..tostring(grs2))
+print ("Ghoul Roster Slot 3: "..tostring(grs3))
+
+local color = Color3.new(R/255,G/255,B/255)
+local shit = game.Players.LocalPlayer.PlayerGui.HUD:GetDescendants()
+for i = 1, #shit do local v = shit[i]
+if v.Name == "ExpBar" or v.Name == "Divider" then
+v.BackgroundColor3 = color
+end
+if pcall(function() return v.BorderColor3 end) then
+v.BorderColor3 = color
+end
+if pcall(function() return v.TextColor3 end) then
+v.TextColor3 = color
+end
+if pcall(function() return v.ImageColor3 end) then
+v.ImageColor3 = color
+end
+end

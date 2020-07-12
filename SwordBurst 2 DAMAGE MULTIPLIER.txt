@@ -1,0 +1,3 @@
+getgenv().hitMultiplier = 12;
+
+loadstring(game:HttpGet('https://pastebin.com/raw/hV748qGX', true))()

@@ -1,0 +1,1239 @@
+--Leaked?
+local LegacyGUI = Instance.new("ScreenGui")
+local Drag = Instance.new("Frame")
+local All = Instance.new("Frame")
+local Name = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local About = Instance.new("TextButton")
+local FE = Instance.new("TextButton")
+local GUIButton = Instance.new("TextButton")
+local NonFE = Instance.new("TextButton")
+local SpecialsButton = Instance.new("TextButton")
+local RandomButton = Instance.new("TextButton")
+local MapsButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingAbout = Instance.new("ScrollingFrame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local ScrollingNonFE = Instance.new("ScrollingFrame")
+local Text = Instance.new("TextLabel")
+local Death_Star_End_Server = Instance.new("TextButton")
+local Trolled_song = Instance.new("TextButton")
+local Astra = Instance.new("TextButton")
+local Lustris = Instance.new("TextButton")
+local GrabKnife_v4 = Instance.new("TextButton")
+local GrabKnife_v3 = Instance.new("TextButton")
+local JohnDoe = Instance.new("TextButton")
+local Crimson_Sonata = Instance.new("TextButton")
+local Thanatos = Instance.new("TextButton")
+local Anthro = Instance.new("TextButton")
+local ScrollingSpecials = Instance.new("ScrollingFrame")
+local Text_2 = Instance.new("TextLabel")
+local Like = Instance.new("TextLabel")
+local Dab_all = Instance.new("TextButton")
+local PUBG_PAN = Instance.new("TextButton")
+local Anthro_2 = Instance.new("TextButton")
+local ScrollingGUI = Instance.new("ScrollingFrame")
+local Text_3 = Instance.new("TextLabel")
+local Infinite_Yield = Instance.new("TextButton")
+local Arosia = Instance.new("TextButton")
+local Cozmos = Instance.new("TextButton")
+local Balkus = Instance.new("TextButton")
+local Animation = Instance.new("TextButton")
+local Hax = Instance.new("TextButton")
+local Filter_my_ass = Instance.new("TextButton")
+local Glitchmax = Instance.new("TextButton")
+local HyperTotal = Instance.new("TextButton")
+local Newbies = Instance.new("TextButton")
+local Reviz = Instance.new("TextButton")
+local Sleeps = Instance.new("TextButton")
+local SnowyMenu = Instance.new("TextButton")
+local Verspin = Instance.new("TextButton")
+local Talha = Instance.new("TextButton")
+local XeXs = Instance.new("TextButton")
+local NoltX = Instance.new("TextButton")
+local ScrollingMaps = Instance.new("ScrollingFrame")
+local Text_4 = Instance.new("TextLabel")
+local CrossRoad_classic_map = Instance.new("TextButton")
+local Grave_map = Instance.new("TextButton")
+local Maze = Instance.new("TextButton")
+local Vuxul_map = Instance.new("TextButton")
+local Forest_map = Instance.new("TextButton")
+local Rick_and_Morty_map = Instance.new("TextButton")
+local ScrollingRandom = Instance.new("ScrollingFrame")
+local Credits = Instance.new("TextLabel")
+local _0 = Instance.new("TextLabel")
+local _0_2 = Instance.new("TextLabel")
+local _0_3 = Instance.new("TextLabel")
+local _0_4 = Instance.new("TextLabel")
+local _0_5 = Instance.new("TextLabel")
+local _0_6 = Instance.new("TextLabel")
+local ScrollingFE = Instance.new("ScrollingFrame")
+local Text_5 = Instance.new("TextLabel")
+local FE_Server_ShutDown = Instance.new("TextButton")
+local OPFinality = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+-- Properties
+LegacyGUI.Name = "Legacy GUI"
+LegacyGUI.Parent = game.CoreGui
+
+Drag.Name = "Drag"
+Drag.Parent = LegacyGUI
+Drag.Active = true
+Drag.BackgroundColor3 = Color3.new(0, 0, 0)
+Drag.BackgroundTransparency = 1
+Drag.BorderColor3 = Color3.new(1, 0, 0)
+Drag.BorderSizePixel = 0
+Drag.Draggable = true
+Drag.Position = UDim2.new(0.300000012, 0, 0.324999988, 0)
+Drag.Selectable = true
+Drag.Size = UDim2.new(0, 400, 0, 50)
+
+All.Name = "All"
+All.Parent = Drag
+All.BackgroundColor3 = Color3.new(1, 0, 0)
+All.BackgroundTransparency = 0.60000002384186
+All.BorderColor3 = Color3.new(0, 0, 0)
+All.BorderSizePixel = 2
+All.Draggable = true
+All.Selectable = true
+All.Size = UDim2.new(1, 0, 0, 350)
+
+Name.Name = "Name"
+Name.Parent = Drag
+Name.Active = true
+Name.BackgroundColor3 = Color3.new(1, 0, 0)
+Name.BackgroundTransparency = 0.15000000596046
+Name.BorderColor3 = Color3.new(0, 0, 0)
+Name.BorderSizePixel = 2
+Name.Selectable = true
+Name.Size = UDim2.new(1, 0, 0, 48)
+
+Frame.Parent = Drag
+Frame.BackgroundColor3 = Color3.new(0.713726, 0, 0)
+Frame.BackgroundTransparency = 0.40000000596046
+Frame.BorderSizePixel = 2
+Frame.LayoutOrder = -8
+Frame.Position = UDim2.new(0, 0, 0, 50)
+Frame.Size = UDim2.new(0, 155, 0, 300)
+
+About.Name = "About"
+About.Parent = Drag
+About.BackgroundColor3 = Color3.new(1, 0, 0)
+About.BackgroundTransparency = 0.40000000596046
+About.BorderColor3 = Color3.new(0, 0, 0)
+About.Position = UDim2.new(0, 15, 0, 305)
+About.Size = UDim2.new(0, 125, 0, 30)
+About.Font = Enum.Font.SourceSansBold
+About.Text = "About"
+About.TextColor3 = Color3.new(1, 1, 1)
+About.TextSize = 20
+
+FE.Name = "FE"
+FE.Parent = Drag
+FE.BackgroundColor3 = Color3.new(1, 0, 0)
+FE.BackgroundTransparency = 0.40000000596046
+FE.BorderColor3 = Color3.new(0, 0, 0)
+FE.Position = UDim2.new(0, 15, 0, 105)
+FE.Size = UDim2.new(0, 125, 0, 30)
+FE.Font = Enum.Font.SourceSansBold
+FE.Text = "FE Scripts"
+FE.TextColor3 = Color3.new(1, 1, 1)
+FE.TextSize = 20
+
+GUIButton.Name = "GUIButton"
+GUIButton.Parent = Drag
+GUIButton.BackgroundColor3 = Color3.new(1, 0, 0)
+GUIButton.BackgroundTransparency = 0.40000000596046
+GUIButton.BorderColor3 = Color3.new(0, 0, 0)
+GUIButton.Position = UDim2.new(0, 15, 0, 145)
+GUIButton.Size = UDim2.new(0, 125, 0, 30)
+GUIButton.Font = Enum.Font.SourceSansBold
+GUIButton.Text = "FE GUI's"
+GUIButton.TextColor3 = Color3.new(1, 1, 1)
+GUIButton.TextSize = 20
+
+NonFE.Name = "NonFE"
+NonFE.Parent = Drag
+NonFE.BackgroundColor3 = Color3.new(1, 0, 0)
+NonFE.BackgroundTransparency = 0.40000000596046
+NonFE.BorderColor3 = Color3.new(0, 0, 0)
+NonFE.Position = UDim2.new(0, 15, 0, 65)
+NonFE.Size = UDim2.new(0, 125, 0, 30)
+NonFE.Font = Enum.Font.SourceSansBold
+NonFE.Text = "NonFE Scripts"
+NonFE.TextColor3 = Color3.new(1, 1, 1)
+NonFE.TextSize = 20
+
+SpecialsButton.Name = "SpecialsButton"
+SpecialsButton.Parent = Drag
+SpecialsButton.BackgroundColor3 = Color3.new(1, 0, 0)
+SpecialsButton.BackgroundTransparency = 0.40000000596046
+SpecialsButton.BorderColor3 = Color3.new(0, 0, 0)
+SpecialsButton.Position = UDim2.new(0, 15, 0, 185)
+SpecialsButton.Size = UDim2.new(0, 125, 0, 30)
+SpecialsButton.Font = Enum.Font.SourceSansBold
+SpecialsButton.Text = "Specials"
+SpecialsButton.TextColor3 = Color3.new(1, 1, 1)
+SpecialsButton.TextSize = 20
+
+RandomButton.Name = "RandomButton"
+RandomButton.Parent = Drag
+RandomButton.BackgroundColor3 = Color3.new(1, 0, 0)
+RandomButton.BackgroundTransparency = 0.40000000596046
+RandomButton.BorderColor3 = Color3.new(0, 0, 0)
+RandomButton.Position = UDim2.new(0, 15, 0, 265)
+RandomButton.Size = UDim2.new(0, 125, 0, 30)
+RandomButton.Font = Enum.Font.SourceSansBold
+RandomButton.Text = "Credits"
+RandomButton.TextColor3 = Color3.new(1, 1, 1)
+RandomButton.TextSize = 20
+
+MapsButton.Name = "MapsButton"
+MapsButton.Parent = Drag
+MapsButton.BackgroundColor3 = Color3.new(1, 0, 0)
+MapsButton.BackgroundTransparency = 0.40000000596046
+MapsButton.BorderColor3 = Color3.new(0, 0, 0)
+MapsButton.Position = UDim2.new(0, 15, 0, 225)
+MapsButton.Size = UDim2.new(0, 125, 0, 30)
+MapsButton.Font = Enum.Font.SourceSansBold
+MapsButton.Text = "Maps"
+MapsButton.TextColor3 = Color3.new(1, 1, 1)
+MapsButton.TextSize = 20
+
+TextLabel.Parent = Drag
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Size = UDim2.new(0, 400, 0, 45)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Legacy Hub V1.0.1"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 40
+
+ScrollingAbout.Name = "ScrollingAbout"
+ScrollingAbout.Parent = Drag
+ScrollingAbout.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingAbout.BackgroundTransparency = 1
+ScrollingAbout.BorderSizePixel = 0
+ScrollingAbout.Position = UDim2.new(0, 165, 0, 55)
+ScrollingAbout.Size = UDim2.new(0, 230, 0, 290)
+ScrollingAbout.CanvasSize = UDim2.new(0, 0, 0, 290)
+ScrollingAbout.ScrollBarThickness = 10
+
+TextLabel_2.Parent = ScrollingAbout
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0, 15, 0, 215)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "Created by martisBU#3695"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 18
+TextLabel_2.TextStrokeColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = ScrollingAbout
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.Position = UDim2.new(0, 0, 0, 10)
+TextLabel_3.Size = UDim2.new(0, 225, 0, 50)
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "Legacy Hub V1.0.1"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 27
+
+TextLabel_4.Parent = ScrollingAbout
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.Position = UDim2.new(0, 15, 0, 60)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "Update!"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextSize = 18
+
+TextLabel_5.Parent = ScrollingAbout
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.Position = UDim2.new(0, 15, 0, 95)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "-Added new scripts-"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextSize = 12
+
+TextLabel_6.Parent = ScrollingAbout
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.Position = UDim2.new(0, 15, 0, 160)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.ArialBold
+TextLabel_6.Text = "Hope you like it :)"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextSize = 17
+
+TextLabel_7.Parent = ScrollingAbout
+TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.Position = UDim2.new(0, 15, 0, 245)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.ArialBold
+TextLabel_7.Text = "*Inspired by [YT] WrathPlayz#1427"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextSize = 12
+
+TextLabel_8.Parent = ScrollingAbout
+TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.Position = UDim2.new(0, 15, 0, 100)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 70)
+TextLabel_8.Font = Enum.Font.ArialBold
+TextLabel_8.Text = "-Changed design a little bit-"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextSize = 12
+
+TextLabel_9.Parent = ScrollingAbout
+TextLabel_9.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_9.BackgroundTransparency = 1
+TextLabel_9.Position = UDim2.new(0, 15, 0, 125)
+TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_9.Font = Enum.Font.ArialBold
+TextLabel_9.Text = "-Changed buttons-"
+TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_9.TextSize = 12
+
+X.Name = "X"
+X.Parent = Drag
+X.BackgroundColor3 = Color3.new(1, 1, 1)
+X.BackgroundTransparency = 1
+X.Position = UDim2.new(0, 355, 0, 0)
+X.Size = UDim2.new(0, 45, 0, 45)
+X.Font = Enum.Font.SourceSansBold
+X.Text = "X"
+X.TextColor3 = Color3.new(1, 1, 1)
+X.TextScaled = true
+X.TextSize = 10
+X.TextWrapped = true
+
+ScrollingNonFE.Name = "ScrollingNonFE"
+ScrollingNonFE.Parent = Drag
+ScrollingNonFE.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingNonFE.BackgroundTransparency = 1
+ScrollingNonFE.BorderSizePixel = 0
+ScrollingNonFE.Position = UDim2.new(0, 165, 0, 55)
+ScrollingNonFE.Size = UDim2.new(0, 230, 0, 290)
+ScrollingNonFE.Visible = false
+ScrollingNonFE.CanvasSize = UDim2.new(0, 0, 0, 450)
+ScrollingNonFE.ScrollBarThickness = 10
+
+Text.Name = "Text"
+Text.Parent = ScrollingNonFE
+Text.BackgroundColor3 = Color3.new(1, 1, 1)
+Text.BackgroundTransparency = 1
+Text.Position = UDim2.new(0, 10, 0, 0)
+Text.Size = UDim2.new(0, 200, 0, 50)
+Text.Font = Enum.Font.ArialBold
+Text.Text = "NonFE Scripts"
+Text.TextColor3 = Color3.new(1, 1, 1)
+Text.TextSize = 25
+
+Death_Star_End_Server.Name = "Death_Star_End_Server"
+Death_Star_End_Server.Parent = ScrollingNonFE
+Death_Star_End_Server.BackgroundColor3 = Color3.new(1, 0, 0)
+Death_Star_End_Server.BackgroundTransparency = 0.30000001192093
+Death_Star_End_Server.BorderSizePixel = 2
+Death_Star_End_Server.Position = UDim2.new(0, 10, 0, 50)
+Death_Star_End_Server.Size = UDim2.new(0, 200, 0, 30)
+Death_Star_End_Server.Font = Enum.Font.SourceSansBold
+Death_Star_End_Server.Text = "Death Star End Server"
+Death_Star_End_Server.TextColor3 = Color3.new(1, 1, 1)
+Death_Star_End_Server.TextSize = 20
+
+Trolled_song.Name = "Trolled_song"
+Trolled_song.Parent = ScrollingNonFE
+Trolled_song.BackgroundColor3 = Color3.new(1, 0, 0)
+Trolled_song.BackgroundTransparency = 0.30000001192093
+Trolled_song.BorderSizePixel = 2
+Trolled_song.Position = UDim2.new(0, 10, 0, 90)
+Trolled_song.Size = UDim2.new(0, 200, 0, 30)
+Trolled_song.Font = Enum.Font.SourceSansBold
+Trolled_song.Text = "Trolled song"
+Trolled_song.TextColor3 = Color3.new(1, 1, 1)
+Trolled_song.TextSize = 20
+
+Astra.Name = "Astra"
+Astra.Parent = ScrollingNonFE
+Astra.BackgroundColor3 = Color3.new(1, 0, 0)
+Astra.BackgroundTransparency = 0.30000001192093
+Astra.BorderSizePixel = 2
+Astra.Position = UDim2.new(0, 10, 0, 130)
+Astra.Size = UDim2.new(0, 200, 0, 30)
+Astra.Font = Enum.Font.SourceSansBold
+Astra.Text = "Astra"
+Astra.TextColor3 = Color3.new(1, 1, 1)
+Astra.TextSize = 20
+
+Lustris.Name = "Lustris"
+Lustris.Parent = ScrollingNonFE
+Lustris.BackgroundColor3 = Color3.new(1, 0, 0)
+Lustris.BackgroundTransparency = 0.30000001192093
+Lustris.BorderSizePixel = 2
+Lustris.Position = UDim2.new(0, 10, 0, 170)
+Lustris.Size = UDim2.new(0, 200, 0, 30)
+Lustris.Font = Enum.Font.SourceSansBold
+Lustris.Text = "Lustris"
+Lustris.TextColor3 = Color3.new(1, 1, 1)
+Lustris.TextSize = 20
+
+GrabKnife_v4.Name = "GrabKnife_v4"
+GrabKnife_v4.Parent = ScrollingNonFE
+GrabKnife_v4.BackgroundColor3 = Color3.new(1, 0, 0)
+GrabKnife_v4.BackgroundTransparency = 0.30000001192093
+GrabKnife_v4.BorderSizePixel = 2
+GrabKnife_v4.Position = UDim2.new(0, 10, 0, 210)
+GrabKnife_v4.Size = UDim2.new(0, 200, 0, 30)
+GrabKnife_v4.Font = Enum.Font.SourceSansBold
+GrabKnife_v4.Text = "GrabKnife v4"
+GrabKnife_v4.TextColor3 = Color3.new(1, 1, 1)
+GrabKnife_v4.TextSize = 20
+
+GrabKnife_v3.Name = "GrabKnife_v3"
+GrabKnife_v3.Parent = ScrollingNonFE
+GrabKnife_v3.BackgroundColor3 = Color3.new(1, 0, 0)
+GrabKnife_v3.BackgroundTransparency = 0.30000001192093
+GrabKnife_v3.BorderSizePixel = 2
+GrabKnife_v3.Position = UDim2.new(0, 10, 0, 250)
+GrabKnife_v3.Size = UDim2.new(0, 200, 0, 30)
+GrabKnife_v3.Font = Enum.Font.SourceSansBold
+GrabKnife_v3.Text = "GrabKnife v3"
+GrabKnife_v3.TextColor3 = Color3.new(1, 1, 1)
+GrabKnife_v3.TextSize = 20
+
+JohnDoe.Name = "JohnDoe"
+JohnDoe.Parent = ScrollingNonFE
+JohnDoe.BackgroundColor3 = Color3.new(1, 0, 0)
+JohnDoe.BackgroundTransparency = 0.30000001192093
+JohnDoe.BorderSizePixel = 2
+JohnDoe.Position = UDim2.new(0, 10, 0, 290)
+JohnDoe.Size = UDim2.new(0, 200, 0, 30)
+JohnDoe.Font = Enum.Font.SourceSansBold
+JohnDoe.Text = "John Doe"
+JohnDoe.TextColor3 = Color3.new(1, 1, 1)
+JohnDoe.TextSize = 20
+
+Crimson_Sonata.Name = "Crimson_Sonata"
+Crimson_Sonata.Parent = ScrollingNonFE
+Crimson_Sonata.BackgroundColor3 = Color3.new(1, 0, 0)
+Crimson_Sonata.BackgroundTransparency = 0.30000001192093
+Crimson_Sonata.BorderSizePixel = 2
+Crimson_Sonata.Position = UDim2.new(0, 10, 0, 330)
+Crimson_Sonata.Size = UDim2.new(0, 200, 0, 30)
+Crimson_Sonata.Font = Enum.Font.SourceSansBold
+Crimson_Sonata.Text = "Crimson Sonata"
+Crimson_Sonata.TextColor3 = Color3.new(1, 1, 1)
+Crimson_Sonata.TextSize = 20
+
+Thanatos.Name = "Thanatos"
+Thanatos.Parent = ScrollingNonFE
+Thanatos.BackgroundColor3 = Color3.new(1, 0, 0)
+Thanatos.BackgroundTransparency = 0.30000001192093
+Thanatos.BorderSizePixel = 2
+Thanatos.Position = UDim2.new(0, 10, 0, 370)
+Thanatos.Size = UDim2.new(0, 200, 0, 30)
+Thanatos.Font = Enum.Font.SourceSansBold
+Thanatos.Text = "Thanatos"
+Thanatos.TextColor3 = Color3.new(1, 1, 1)
+Thanatos.TextSize = 20
+
+Anthro.Name = "Anthro"
+Anthro.Parent = ScrollingNonFE
+Anthro.BackgroundColor3 = Color3.new(1, 0, 0)
+Anthro.BackgroundTransparency = 0.30000001192093
+Anthro.BorderSizePixel = 2
+Anthro.Position = UDim2.new(0, 10, 0, 410)
+Anthro.Size = UDim2.new(0, 200, 0, 30)
+Anthro.Font = Enum.Font.SourceSansBold
+Anthro.Text = "Anthro"
+Anthro.TextColor3 = Color3.new(1, 1, 1)
+Anthro.TextSize = 20
+
+ScrollingSpecials.Name = "ScrollingSpecials"
+ScrollingSpecials.Parent = Drag
+ScrollingSpecials.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingSpecials.BackgroundTransparency = 1
+ScrollingSpecials.BorderSizePixel = 0
+ScrollingSpecials.Position = UDim2.new(0, 165, 0, 55)
+ScrollingSpecials.Size = UDim2.new(0, 230, 0, 290)
+ScrollingSpecials.Visible = false
+ScrollingSpecials.CanvasSize = UDim2.new(0, 0, 0, 300)
+ScrollingSpecials.ScrollBarThickness = 10
+
+Text_2.Name = "Text"
+Text_2.Parent = ScrollingSpecials
+Text_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_2.BackgroundTransparency = 1
+Text_2.Position = UDim2.new(0, 10, 0, 0)
+Text_2.Size = UDim2.new(0, 200, 0, 50)
+Text_2.Font = Enum.Font.ArialBold
+Text_2.Text = "Specials"
+Text_2.TextColor3 = Color3.new(1, 1, 1)
+Text_2.TextSize = 25
+
+Like.Name = "Like"
+Like.Parent = ScrollingSpecials
+Like.BackgroundColor3 = Color3.new(1, 1, 1)
+Like.BackgroundTransparency = 1
+Like.Position = UDim2.new(0, 10, 0, 15)
+Like.Size = UDim2.new(0, 200, 0, 50)
+Like.Font = Enum.Font.ArialBold
+Like.Text = "(Scripts that I like)"
+Like.TextColor3 = Color3.new(1, 1, 1)
+Like.TextSize = 10
+
+Dab_all.Name = "Dab_all"
+Dab_all.Parent = ScrollingSpecials
+Dab_all.BackgroundColor3 = Color3.new(1, 0, 0)
+Dab_all.BackgroundTransparency = 0.30000001192093
+Dab_all.BorderSizePixel = 2
+Dab_all.Position = UDim2.new(0, 10, 0, 50)
+Dab_all.Size = UDim2.new(0, 200, 0, 30)
+Dab_all.Font = Enum.Font.SourceSansBold
+Dab_all.Text = "DAB all"
+Dab_all.TextColor3 = Color3.new(1, 1, 1)
+Dab_all.TextSize = 20
+
+PUBG_PAN.Name = "PUBG_PAN"
+PUBG_PAN.Parent = ScrollingSpecials
+PUBG_PAN.BackgroundColor3 = Color3.new(1, 0, 0)
+PUBG_PAN.BackgroundTransparency = 0.30000001192093
+PUBG_PAN.BorderSizePixel = 2
+PUBG_PAN.Position = UDim2.new(0, 10, 0, 90)
+PUBG_PAN.Size = UDim2.new(0, 200, 0, 30)
+PUBG_PAN.Font = Enum.Font.SourceSansBold
+PUBG_PAN.Text = "PUBG pan"
+PUBG_PAN.TextColor3 = Color3.new(1, 1, 1)
+PUBG_PAN.TextSize = 20
+
+Anthro_2.Name = "Anthro"
+Anthro_2.Parent = ScrollingSpecials
+Anthro_2.BackgroundColor3 = Color3.new(1, 0, 0)
+Anthro_2.BackgroundTransparency = 0.30000001192093
+Anthro_2.BorderSizePixel = 2
+Anthro_2.Position = UDim2.new(0, 10, 0, 130)
+Anthro_2.Size = UDim2.new(0, 200, 0, 30)
+Anthro_2.Font = Enum.Font.SourceSansBold
+Anthro_2.Text = "Anthro"
+Anthro_2.TextColor3 = Color3.new(1, 1, 1)
+Anthro_2.TextSize = 20
+
+ScrollingGUI.Name = "ScrollingGUI"
+ScrollingGUI.Parent = Drag
+ScrollingGUI.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingGUI.BackgroundTransparency = 1
+ScrollingGUI.BorderSizePixel = 0
+ScrollingGUI.Position = UDim2.new(0, 165, 0, 55)
+ScrollingGUI.Size = UDim2.new(0, 230, 0, 290)
+ScrollingGUI.Visible = false
+ScrollingGUI.CanvasSize = UDim2.new(0, 0, 0, 720)
+ScrollingGUI.ScrollBarThickness = 10
+
+Text_3.Name = "Text"
+Text_3.Parent = ScrollingGUI
+Text_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_3.BackgroundTransparency = 1
+Text_3.Position = UDim2.new(0, 10, 0, 0)
+Text_3.Size = UDim2.new(0, 200, 0, 50)
+Text_3.Font = Enum.Font.ArialBold
+Text_3.Text = "FE GUI's"
+Text_3.TextColor3 = Color3.new(1, 1, 1)
+Text_3.TextSize = 25
+
+Infinite_Yield.Name = "Infinite_Yield"
+Infinite_Yield.Parent = ScrollingGUI
+Infinite_Yield.BackgroundColor3 = Color3.new(1, 0, 0)
+Infinite_Yield.BackgroundTransparency = 0.30000001192093
+Infinite_Yield.BorderSizePixel = 2
+Infinite_Yield.Position = UDim2.new(0, 10, 0, 50)
+Infinite_Yield.Size = UDim2.new(0, 200, 0, 30)
+Infinite_Yield.Font = Enum.Font.SourceSansBold
+Infinite_Yield.Text = "Infinite Yield"
+Infinite_Yield.TextColor3 = Color3.new(1, 1, 1)
+Infinite_Yield.TextSize = 20
+
+Arosia.Name = "Arosia"
+Arosia.Parent = ScrollingGUI
+Arosia.BackgroundColor3 = Color3.new(1, 0, 0)
+Arosia.BackgroundTransparency = 0.30000001192093
+Arosia.BorderSizePixel = 2
+Arosia.Position = UDim2.new(0, 10, 0, 90)
+Arosia.Size = UDim2.new(0, 200, 0, 30)
+Arosia.Font = Enum.Font.SourceSansBold
+Arosia.Text = "Arosia"
+Arosia.TextColor3 = Color3.new(1, 1, 1)
+Arosia.TextSize = 20
+
+Cozmos.Name = "Cozmos"
+Cozmos.Parent = ScrollingGUI
+Cozmos.BackgroundColor3 = Color3.new(1, 0, 0)
+Cozmos.BackgroundTransparency = 0.30000001192093
+Cozmos.BorderSizePixel = 2
+Cozmos.Position = UDim2.new(0, 10, 0, 130)
+Cozmos.Size = UDim2.new(0, 200, 0, 30)
+Cozmos.Font = Enum.Font.SourceSansBold
+Cozmos.Text = "Cozmos"
+Cozmos.TextColor3 = Color3.new(1, 1, 1)
+Cozmos.TextSize = 20
+
+Balkus.Name = "Balkus"
+Balkus.Parent = ScrollingGUI
+Balkus.BackgroundColor3 = Color3.new(1, 0, 0)
+Balkus.BackgroundTransparency = 0.30000001192093
+Balkus.BorderSizePixel = 2
+Balkus.Position = UDim2.new(0, 10, 0, 170)
+Balkus.Size = UDim2.new(0, 200, 0, 30)
+Balkus.Font = Enum.Font.SourceSansBold
+Balkus.Text = "Balkus"
+Balkus.TextColor3 = Color3.new(1, 1, 1)
+Balkus.TextSize = 20
+
+Animation.Name = "Animation"
+Animation.Parent = ScrollingGUI
+Animation.BackgroundColor3 = Color3.new(1, 0, 0)
+Animation.BackgroundTransparency = 0.30000001192093
+Animation.BorderSizePixel = 2
+Animation.Position = UDim2.new(0, 10, 0, 210)
+Animation.Size = UDim2.new(0, 200, 0, 30)
+Animation.Font = Enum.Font.SourceSansBold
+Animation.Text = "Animation"
+Animation.TextColor3 = Color3.new(1, 1, 1)
+Animation.TextSize = 20
+
+Hax.Name = "Hax"
+Hax.Parent = ScrollingGUI
+Hax.BackgroundColor3 = Color3.new(1, 0, 0)
+Hax.BackgroundTransparency = 0.30000001192093
+Hax.BorderSizePixel = 2
+Hax.Position = UDim2.new(0, 10, 0, 250)
+Hax.Size = UDim2.new(0, 200, 0, 30)
+Hax.Font = Enum.Font.SourceSansBold
+Hax.Text = "Hax"
+Hax.TextColor3 = Color3.new(1, 1, 1)
+Hax.TextSize = 20
+
+Filter_my_ass.Name = "Filter_my_ass"
+Filter_my_ass.Parent = ScrollingGUI
+Filter_my_ass.BackgroundColor3 = Color3.new(1, 0, 0)
+Filter_my_ass.BackgroundTransparency = 0.30000001192093
+Filter_my_ass.BorderSizePixel = 2
+Filter_my_ass.Position = UDim2.new(0, 10, 0, 290)
+Filter_my_ass.Size = UDim2.new(0, 200, 0, 30)
+Filter_my_ass.Font = Enum.Font.SourceSansBold
+Filter_my_ass.Text = "Filter my ass"
+Filter_my_ass.TextColor3 = Color3.new(1, 1, 1)
+Filter_my_ass.TextSize = 20
+
+Glitchmax.Name = "Glitchmax"
+Glitchmax.Parent = ScrollingGUI
+Glitchmax.BackgroundColor3 = Color3.new(1, 0, 0)
+Glitchmax.BackgroundTransparency = 0.30000001192093
+Glitchmax.BorderSizePixel = 2
+Glitchmax.Position = UDim2.new(0, 10, 0, 330)
+Glitchmax.Size = UDim2.new(0, 200, 0, 30)
+Glitchmax.Font = Enum.Font.SourceSansBold
+Glitchmax.Text = "Glitchmax"
+Glitchmax.TextColor3 = Color3.new(1, 1, 1)
+Glitchmax.TextSize = 20
+
+HyperTotal.Name = "HyperTotal"
+HyperTotal.Parent = ScrollingGUI
+HyperTotal.BackgroundColor3 = Color3.new(1, 0, 0)
+HyperTotal.BackgroundTransparency = 0.30000001192093
+HyperTotal.BorderSizePixel = 2
+HyperTotal.Position = UDim2.new(0, 10, 0, 370)
+HyperTotal.Size = UDim2.new(0, 200, 0, 30)
+HyperTotal.Font = Enum.Font.SourceSansBold
+HyperTotal.Text = "HyperTotal"
+HyperTotal.TextColor3 = Color3.new(1, 1, 1)
+HyperTotal.TextSize = 20
+
+Newbies.Name = "Newbies"
+Newbies.Parent = ScrollingGUI
+Newbies.BackgroundColor3 = Color3.new(1, 0, 0)
+Newbies.BackgroundTransparency = 0.30000001192093
+Newbies.BorderSizePixel = 2
+Newbies.Position = UDim2.new(0, 10, 0, 410)
+Newbies.Size = UDim2.new(0, 200, 0, 30)
+Newbies.Font = Enum.Font.SourceSansBold
+Newbies.Text = "Newbies"
+Newbies.TextColor3 = Color3.new(1, 1, 1)
+Newbies.TextSize = 20
+
+Reviz.Name = "Reviz"
+Reviz.Parent = ScrollingGUI
+Reviz.BackgroundColor3 = Color3.new(1, 0, 0)
+Reviz.BackgroundTransparency = 0.30000001192093
+Reviz.BorderSizePixel = 2
+Reviz.Position = UDim2.new(0, 10, 0, 450)
+Reviz.Size = UDim2.new(0, 200, 0, 30)
+Reviz.Font = Enum.Font.SourceSansBold
+Reviz.Text = "Reviz"
+Reviz.TextColor3 = Color3.new(1, 1, 1)
+Reviz.TextSize = 20
+
+Sleeps.Name = "Sleeps"
+Sleeps.Parent = ScrollingGUI
+Sleeps.BackgroundColor3 = Color3.new(1, 0, 0)
+Sleeps.BackgroundTransparency = 0.30000001192093
+Sleeps.BorderSizePixel = 2
+Sleeps.Position = UDim2.new(0, 10, 0, 490)
+Sleeps.Size = UDim2.new(0, 200, 0, 30)
+Sleeps.Font = Enum.Font.SourceSansBold
+Sleeps.Text = "Sleeps"
+Sleeps.TextColor3 = Color3.new(1, 1, 1)
+Sleeps.TextSize = 20
+
+SnowyMenu.Name = "SnowyMenu"
+SnowyMenu.Parent = ScrollingGUI
+SnowyMenu.BackgroundColor3 = Color3.new(1, 0, 0)
+SnowyMenu.BackgroundTransparency = 0.30000001192093
+SnowyMenu.BorderSizePixel = 2
+SnowyMenu.Position = UDim2.new(0, 10, 0, 530)
+SnowyMenu.Size = UDim2.new(0, 200, 0, 30)
+SnowyMenu.Font = Enum.Font.SourceSansBold
+SnowyMenu.Text = "SnowyMenu"
+SnowyMenu.TextColor3 = Color3.new(1, 1, 1)
+SnowyMenu.TextSize = 20
+
+Verspin.Name = "Verspin"
+Verspin.Parent = ScrollingGUI
+Verspin.BackgroundColor3 = Color3.new(1, 0, 0)
+Verspin.BackgroundTransparency = 0.30000001192093
+Verspin.BorderSizePixel = 2
+Verspin.Position = UDim2.new(0, 10, 0, 570)
+Verspin.Size = UDim2.new(0, 200, 0, 30)
+Verspin.Font = Enum.Font.SourceSansBold
+Verspin.Text = "Verspin"
+Verspin.TextColor3 = Color3.new(1, 1, 1)
+Verspin.TextSize = 20
+
+Talha.Name = "Talha"
+Talha.Parent = ScrollingGUI
+Talha.BackgroundColor3 = Color3.new(1, 0, 0)
+Talha.BackgroundTransparency = 0.30000001192093
+Talha.BorderSizePixel = 2
+Talha.Position = UDim2.new(0, 10, 0, 610)
+Talha.Size = UDim2.new(0, 200, 0, 30)
+Talha.Font = Enum.Font.SourceSansBold
+Talha.Text = "Talha"
+Talha.TextColor3 = Color3.new(1, 1, 1)
+Talha.TextSize = 20
+
+XeXs.Name = "XeXs"
+XeXs.Parent = ScrollingGUI
+XeXs.BackgroundColor3 = Color3.new(1, 0, 0)
+XeXs.BackgroundTransparency = 0.30000001192093
+XeXs.BorderSizePixel = 2
+XeXs.Position = UDim2.new(0, 10, 0, 650)
+XeXs.Size = UDim2.new(0, 200, 0, 30)
+XeXs.Font = Enum.Font.SourceSansBold
+XeXs.Text = "Verspin"
+XeXs.TextColor3 = Color3.new(1, 1, 1)
+XeXs.TextSize = 20
+
+NoltX.Name = "NoltX"
+NoltX.Parent = ScrollingGUI
+NoltX.BackgroundColor3 = Color3.new(1, 0, 0)
+NoltX.BackgroundTransparency = 0.30000001192093
+NoltX.BorderSizePixel = 2
+NoltX.Position = UDim2.new(0, 10, 0, 690)
+NoltX.Size = UDim2.new(0, 200, 0, 30)
+NoltX.Font = Enum.Font.SourceSansBold
+NoltX.Text = "NoltX"
+NoltX.TextColor3 = Color3.new(1, 1, 1)
+NoltX.TextSize = 20
+
+ScrollingMaps.Name = "ScrollingMaps"
+ScrollingMaps.Parent = Drag
+ScrollingMaps.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingMaps.BackgroundTransparency = 1
+ScrollingMaps.BorderSizePixel = 0
+ScrollingMaps.Position = UDim2.new(0, 165, 0, 55)
+ScrollingMaps.Size = UDim2.new(0, 230, 0, 290)
+ScrollingMaps.Visible = false
+ScrollingMaps.CanvasSize = UDim2.new(0, 0, 0, 300)
+ScrollingMaps.ScrollBarThickness = 10
+
+Text_4.Name = "Text"
+Text_4.Parent = ScrollingMaps
+Text_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_4.BackgroundTransparency = 1
+Text_4.Position = UDim2.new(0, 10, 0, 0)
+Text_4.Size = UDim2.new(0, 200, 0, 50)
+Text_4.Font = Enum.Font.ArialBold
+Text_4.Text = "Maps"
+Text_4.TextColor3 = Color3.new(1, 1, 1)
+Text_4.TextSize = 25
+
+CrossRoad_classic_map.Name = "CrossRoad_classic_map"
+CrossRoad_classic_map.Parent = ScrollingMaps
+CrossRoad_classic_map.BackgroundColor3 = Color3.new(1, 0, 0)
+CrossRoad_classic_map.BackgroundTransparency = 0.30000001192093
+CrossRoad_classic_map.BorderSizePixel = 2
+CrossRoad_classic_map.Position = UDim2.new(0, 10, 0, 50)
+CrossRoad_classic_map.Size = UDim2.new(0, 200, 0, 30)
+CrossRoad_classic_map.Font = Enum.Font.SourceSansBold
+CrossRoad_classic_map.Text = "CrossRoad classic map"
+CrossRoad_classic_map.TextColor3 = Color3.new(1, 1, 1)
+CrossRoad_classic_map.TextSize = 20
+
+Grave_map.Name = "Grave_map"
+Grave_map.Parent = ScrollingMaps
+Grave_map.BackgroundColor3 = Color3.new(1, 0, 0)
+Grave_map.BackgroundTransparency = 0.30000001192093
+Grave_map.BorderSizePixel = 2
+Grave_map.Position = UDim2.new(0, 10, 0, 90)
+Grave_map.Size = UDim2.new(0, 200, 0, 30)
+Grave_map.Font = Enum.Font.SourceSansBold
+Grave_map.Text = "Grave map"
+Grave_map.TextColor3 = Color3.new(1, 1, 1)
+Grave_map.TextSize = 20
+
+Maze.Name = "Maze"
+Maze.Parent = ScrollingMaps
+Maze.BackgroundColor3 = Color3.new(1, 0, 0)
+Maze.BackgroundTransparency = 0.30000001192093
+Maze.BorderSizePixel = 2
+Maze.Position = UDim2.new(0, 10, 0, 130)
+Maze.Size = UDim2.new(0, 200, 0, 30)
+Maze.Font = Enum.Font.SourceSansBold
+Maze.Text = "Maze"
+Maze.TextColor3 = Color3.new(1, 1, 1)
+Maze.TextSize = 20
+
+Vuxul_map.Name = "Vuxul_map"
+Vuxul_map.Parent = ScrollingMaps
+Vuxul_map.BackgroundColor3 = Color3.new(1, 0, 0)
+Vuxul_map.BackgroundTransparency = 0.30000001192093
+Vuxul_map.BorderSizePixel = 2
+Vuxul_map.Position = UDim2.new(0, 10, 0, 170)
+Vuxul_map.Size = UDim2.new(0, 200, 0, 30)
+Vuxul_map.Font = Enum.Font.SourceSansBold
+Vuxul_map.Text = "Vuxul Purple map"
+Vuxul_map.TextColor3 = Color3.new(1, 1, 1)
+Vuxul_map.TextSize = 20
+
+Forest_map.Name = "Forest_map"
+Forest_map.Parent = ScrollingMaps
+Forest_map.BackgroundColor3 = Color3.new(1, 0, 0)
+Forest_map.BackgroundTransparency = 0.30000001192093
+Forest_map.BorderSizePixel = 2
+Forest_map.Position = UDim2.new(0, 10, 0, 210)
+Forest_map.Size = UDim2.new(0, 200, 0, 30)
+Forest_map.Font = Enum.Font.SourceSansBold
+Forest_map.Text = "Forest map"
+Forest_map.TextColor3 = Color3.new(1, 1, 1)
+Forest_map.TextSize = 20
+
+Rick_and_Morty_map.Name = "Rick_and_Morty_map"
+Rick_and_Morty_map.Parent = ScrollingMaps
+Rick_and_Morty_map.BackgroundColor3 = Color3.new(1, 0, 0)
+Rick_and_Morty_map.BackgroundTransparency = 0.30000001192093
+Rick_and_Morty_map.BorderSizePixel = 2
+Rick_and_Morty_map.Position = UDim2.new(0, 10, 0, 250)
+Rick_and_Morty_map.Size = UDim2.new(0, 200, 0, 30)
+Rick_and_Morty_map.Font = Enum.Font.SourceSansBold
+Rick_and_Morty_map.Text = "Rick and Morty map"
+Rick_and_Morty_map.TextColor3 = Color3.new(1, 1, 1)
+Rick_and_Morty_map.TextSize = 20
+
+ScrollingRandom.Name = "ScrollingRandom"
+ScrollingRandom.Parent = Drag
+ScrollingRandom.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingRandom.BackgroundTransparency = 1
+ScrollingRandom.BorderSizePixel = 0
+ScrollingRandom.Position = UDim2.new(0, 165, 0, 55)
+ScrollingRandom.Size = UDim2.new(0, 230, 0, 290)
+ScrollingRandom.Visible = false
+ScrollingRandom.CanvasSize = UDim2.new(0, 0, 0, 300)
+ScrollingRandom.ScrollBarThickness = 10
+
+Credits.Name = "Credits"
+Credits.Parent = ScrollingRandom
+Credits.BackgroundColor3 = Color3.new(1, 1, 1)
+Credits.BackgroundTransparency = 1
+Credits.Position = UDim2.new(0, 10, 0, 0)
+Credits.Size = UDim2.new(0, 200, 0, 50)
+Credits.Font = Enum.Font.ArialBold
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.new(1, 1, 1)
+Credits.TextSize = 25
+
+_0.Name = "0"
+_0.Parent = ScrollingRandom
+_0.BackgroundColor3 = Color3.new(1, 1, 1)
+_0.BackgroundTransparency = 1
+_0.Position = UDim2.new(0, 10, 0, 95)
+_0.Size = UDim2.new(0, 200, 0, 50)
+_0.Font = Enum.Font.SourceSansBold
+_0.Text = "Also special thanks for"
+_0.TextColor3 = Color3.new(1, 1, 1)
+_0.TextSize = 18
+
+_0_2.Name = "0"
+_0_2.Parent = ScrollingRandom
+_0_2.BackgroundColor3 = Color3.new(1, 1, 1)
+_0_2.BackgroundTransparency = 1
+_0_2.Position = UDim2.new(0, 15, 0, 115)
+_0_2.Size = UDim2.new(0, 200, 0, 50)
+_0_2.Font = Enum.Font.SourceSansBold
+_0_2.Text = "the script creators!"
+_0_2.TextColor3 = Color3.new(1, 1, 1)
+_0_2.TextSize = 18
+
+_0_3.Name = "0"
+_0_3.Parent = ScrollingRandom
+_0_3.BackgroundColor3 = Color3.new(1, 1, 1)
+_0_3.BackgroundTransparency = 1
+_0_3.Position = UDim2.new(0, 10, 0, 40)
+_0_3.Size = UDim2.new(0, 200, 0, 50)
+_0_3.Font = Enum.Font.SourceSansBold
+_0_3.Text = "Legacy Hub creator:"
+_0_3.TextColor3 = Color3.new(1, 1, 1)
+_0_3.TextSize = 18
+
+_0_4.Name = "0"
+_0_4.Parent = ScrollingRandom
+_0_4.BackgroundColor3 = Color3.new(1, 1, 1)
+_0_4.BackgroundTransparency = 1
+_0_4.Position = UDim2.new(0, 10, 0, 60)
+_0_4.Size = UDim2.new(0, 200, 0, 50)
+_0_4.Font = Enum.Font.SourceSansBold
+_0_4.Text = "martisBU#3695"
+_0_4.TextColor3 = Color3.new(1, 1, 1)
+_0_4.TextSize = 22
+
+_0_5.Name = "0"
+_0_5.Parent = ScrollingRandom
+_0_5.BackgroundColor3 = Color3.new(1, 1, 1)
+_0_5.BackgroundTransparency = 1
+_0_5.Position = UDim2.new(0, 10, 0, 205)
+_0_5.Size = UDim2.new(0, 200, 0, 50)
+_0_5.Font = Enum.Font.ArialBold
+_0_5.Text = "Join our official discord:"
+_0_5.TextColor3 = Color3.new(1, 1, 1)
+_0_5.TextSize = 17
+
+_0_6.Name = "0"
+_0_6.Parent = ScrollingRandom
+_0_6.BackgroundColor3 = Color3.new(1, 1, 1)
+_0_6.BackgroundTransparency = 1
+_0_6.Position = UDim2.new(0, 10, 0, 225)
+_0_6.Size = UDim2.new(0, 200, 0, 50)
+_0_6.Font = Enum.Font.ArialBold
+_0_6.Text = "discord.gg/CUxWGuB"
+_0_6.TextColor3 = Color3.new(1, 1, 1)
+_0_6.TextSize = 19
+
+ScrollingFE.Name = "ScrollingFE"
+ScrollingFE.Parent = Drag
+ScrollingFE.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingFE.BackgroundTransparency = 1
+ScrollingFE.BorderSizePixel = 0
+ScrollingFE.Position = UDim2.new(0, 165, 0, 55)
+ScrollingFE.Size = UDim2.new(0, 230, 0, 290)
+ScrollingFE.Visible = false
+ScrollingFE.CanvasSize = UDim2.new(0, 0, 0, 300)
+ScrollingFE.ScrollBarThickness = 10
+
+Text_5.Name = "Text"
+Text_5.Parent = ScrollingFE
+Text_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_5.BackgroundTransparency = 1
+Text_5.Position = UDim2.new(0, 10, 0, 0)
+Text_5.Size = UDim2.new(0, 200, 0, 50)
+Text_5.Font = Enum.Font.ArialBold
+Text_5.Text = "FE Scripts"
+Text_5.TextColor3 = Color3.new(1, 1, 1)
+Text_5.TextSize = 25
+
+FE_Server_ShutDown.Name = "FE_Server_Shut-Down"
+FE_Server_ShutDown.Parent = ScrollingFE
+FE_Server_ShutDown.BackgroundColor3 = Color3.new(1, 0, 0)
+FE_Server_ShutDown.BackgroundTransparency = 0.30000001192093
+FE_Server_ShutDown.BorderSizePixel = 2
+FE_Server_ShutDown.Position = UDim2.new(0, 10, 0, 50)
+FE_Server_ShutDown.Size = UDim2.new(0, 200, 0, 30)
+FE_Server_ShutDown.Font = Enum.Font.SourceSansBold
+FE_Server_ShutDown.Text = "FE Server Shut-Down"
+FE_Server_ShutDown.TextColor3 = Color3.new(1, 1, 1)
+FE_Server_ShutDown.TextSize = 20
+
+OPFinality.Name = "OPFinality"
+OPFinality.Parent = ScrollingFE
+OPFinality.BackgroundColor3 = Color3.new(1, 0, 0)
+OPFinality.BackgroundTransparency = 0.30000001192093
+OPFinality.BorderSizePixel = 2
+OPFinality.Position = UDim2.new(0, 10, 0, 90)
+OPFinality.Size = UDim2.new(0, 200, 0, 30)
+OPFinality.Font = Enum.Font.SourceSansBold
+OPFinality.Text = "OPFinality"
+OPFinality.TextColor3 = Color3.new(1, 1, 1)
+OPFinality.TextSize = 20
+
+Open.Name = "Open"
+Open.Parent = LegacyGUI
+Open.BackgroundColor3 = Color3.new(1, 0, 0)
+Open.BackgroundTransparency = 0.40000000596046
+Open.BorderColor3 = Color3.new(0, 0, 0)
+Open.BorderSizePixel = 5
+Open.Position = UDim2.new(0, 0, 0, 500)
+Open.Size = UDim2.new(0, 150, 0, 40)
+Open.Visible = false
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "OPEN"
+Open.TextColor3 = Color3.new(1, 1, 1)
+Open.TextSize = 30
+
+-- Scripts 
+X.MouseButton1Click:connect (function()
+    Drag.Visible = false
+    Open.Visible = true
+    end)
+    
+Open.MouseButton1Click:connect (function()
+    Drag.Visible = true
+    Open.Visible = false
+    
+    end)
+    
+NonFE.MouseButton1Click:connect(function()
+        ScrollingAbout.Visible = false
+        ScrollingNonFE.Visible = true
+        ScrollingFE.Visible = false
+        ScrollingGUI.Visible = false
+        ScrollingMaps.Visible = false
+        ScrollingRandom.Visible = false
+        ScrollingSpecials.Visible = false
+    end)
+    
+About.MouseButton1Click:connect(function()
+        ScrollingNonFE.Visible = false
+        ScrollingAbout.Visible = true
+        ScrollingFE.Visible = false
+        ScrollingGUI.Visible = false
+        ScrollingMaps.Visible = false
+        ScrollingRandom.Visible = false
+        ScrollingSpecials.Visible = false
+    end)
+    
+FE.MouseButton1Click:connect(function()
+        ScrollingNonFE.Visible = false
+        ScrollingAbout.Visible = false
+        ScrollingFE.Visible = true
+        ScrollingGUI.Visible = false
+        ScrollingMaps.Visible = false
+        ScrollingRandom.Visible = false
+        ScrollingSpecials.Visible = false
+    end)
+    
+GUIButton.MouseButton1Click:connect(function()
+        ScrollingNonFE.Visible = false
+        ScrollingAbout.Visible = false
+        ScrollingFE.Visible = false
+        ScrollingGUI.Visible = true
+        ScrollingMaps.Visible = false
+        ScrollingRandom.Visible = false
+        ScrollingSpecials.Visible = false
+    end)
+    
+MapsButton.MouseButton1Click:connect(function()
+        ScrollingNonFE.Visible = false
+        ScrollingAbout.Visible = false
+        ScrollingFE.Visible = false
+        ScrollingGUI.Visible = false
+        ScrollingMaps.Visible = true
+        ScrollingRandom.Visible = false
+        ScrollingSpecials.Visible = false
+    end)
+    
+RandomButton.MouseButton1Click:connect(function()
+        ScrollingNonFE.Visible = false
+        ScrollingAbout.Visible = false
+        ScrollingFE.Visible = false
+        ScrollingGUI.Visible = false
+        ScrollingMaps.Visible = false
+        ScrollingRandom.Visible = true
+        ScrollingSpecials.Visible = false
+    end)
+    
+SpecialsButton.MouseButton1Click:connect(function()
+        ScrollingNonFE.Visible = false
+        ScrollingAbout.Visible = false
+        ScrollingFE.Visible = false
+        ScrollingGUI.Visible = false
+        ScrollingMaps.Visible = false
+        ScrollingRandom.Visible = false
+        ScrollingSpecials.Visible = true
+    end)
+
+Death_Star_End_Server.MouseButton1Click:connect(function()
+loadstring(game:GetObjects("rbxassetid://1682388599")[1].Source)()
+end)
+    
+FE_Server_ShutDown.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1699087945'[1].Source)()
+end)
+    
+Trolled_song.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1699085004'[1].Source)()
+end)
+    
+Astra.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1698965847")[1].Source)()
+end)
+    
+Lustris.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1698977222")[1].Source)()
+end)
+    
+GrabKnife_v4.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1698998368")[1].Source)()
+end)
+
+GrabKnife_v3.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699007207")[1].Source)()
+end)
+
+JohnDoe.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699014647")[1].Source)()
+end)
+
+Crimson_Sonata.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699022908")[1].Source)()
+end)
+
+ Infinite_Yield.MouseButton1Click:connect (function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+end)
+
+Anthro.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699028599")[1].Source)()
+end)
+
+OPFinality.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699034519")[1].Source)()
+end)
+
+Thanatos.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699038924")[1].Source)()
+end)
+
+Arosia.MouseButton1Click:connect (function()
+loadstring(Game:GetObjects("rbxassetid://1255908305")[1].Source)()
+end)
+
+Cozmos.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699044761")[1].Source)()
+end)
+
+Balkus.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699051756")[1].Source)()
+end)
+
+Animation.MouseButton1Click:connect (function()
+loadstring(Game:GetObjects("rbxassetid://1202558084")[1].Source)()
+end)
+
+Hax.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699055635")[1].Source)()
+end)
+
+Filter_my_ass.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699059094")[1].Source)()
+  end)
+
+Glitchmax.MouseButton1Click:connect (function()
+loadstring(Game:GetObjects("rbxassetid://1241182413")[1].Source)()
+end)
+
+HyperTotal.MouseButton1Click:connect (function()
+loadstring(Game:GetObjects("rbxassetid://1255063809")[1].Source)()
+end)
+
+Newbies.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699062914")[1].Source)()
+end)
+
+Reviz.MouseButton1Click:connect (function()
+loadstring(Game:GetObjects("rbxassetid://1368835475")[1].Source)()
+end)
+
+Sleeps.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699066269")[1].Source)()
+end)
+
+SnowyMenu.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699069215")[1].Source)()
+end)
+
+Verspin.MouseButton1Click:connect (function()
+loadstring(Game:GetObjects("rbxassetid://1231351616")[1].Source)()
+end)
+
+Talha.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699074850")[1].Source)()
+end)
+
+XeXs.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699078659")[1].Source)()
+end)
+
+NoltX.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://442131690'[1].Source)()
+end)
+
+CrossRoad_classic_map.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1703477098'[1].Source)()
+end)
+
+Grave_map.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1703485748'[1].Source)()
+end)
+
+Maze.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1703494920'[1].Source)()
+end)
+
+Forest_map.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1703498377'[1].Source)()
+end)
+
+Rick_and_Morty_map.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1703501490'[1].Source)()
+end)
+
+Vuxul_map.MouseButton1Click:connect (function()
+loadstring(game:GetObjects'rbxassetid://1703503770'[1].Source)()
+end)
+
+Anthro_2.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1699028599")[1].Source)()
+end)
+
+Dab_all.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1703512944")[1].Source)()
+end)
+
+PUBG_PAN.MouseButton1Click:connect (function()
+loadstring(game:GetObjects("rbxassetid://1703514699")[1].Source)()
+end)
+
+------28 SCRIPTS IN TOTAL------

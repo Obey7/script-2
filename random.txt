@@ -1,0 +1,58 @@
+local loc = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local locs = Instance.new("TextButton")
+local off = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+loc.Name = "loc"
+loc.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = loc
+main.Active = true
+main.BackgroundColor3 = Color3.new(0.176471, 0.00392157, 0.34902)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.269424826, 0, 0.209737822, 0)
+main.Size = UDim2.new(0, 155, 0, 111)
+
+locs.Name = "locs"
+locs.Parent = main
+locs.BackgroundColor3 = Color3.new(0.376471, 0.00392157, 0.74902)
+locs.BorderColor3 = Color3.new(0.992157, 1, 0.984314)
+locs.Position = UDim2.new(0.0709677413, 0, 0.153153151, 0)
+locs.Size = UDim2.new(0, 130, 0, 25)
+locs.Font = Enum.Font.Fantasy
+locs.Text = "TP to Items"
+locs.TextColor3 = Color3.new(1, 1, 1)
+locs.TextSize = 14
+
+off.Name = "off"
+off.Parent = main
+off.BackgroundColor3 = Color3.new(0.376471, 0.00392157, 0.74902)
+off.BorderColor3 = Color3.new(0.992157, 1, 0.984314)
+off.Position = UDim2.new(0.0709677413, 0, 0.45045042, 0)
+off.Size = UDim2.new(0, 130, 0, 25)
+off.Font = Enum.Font.Fantasy
+off.Text = "TP to Spawn"
+off.TextColor3 = Color3.new(1, 1, 1)
+off.TextSize = 14
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.0709677413, 0, 0.77477479, 0)
+TextLabel.Size = UDim2.new(0, 130, 0, 25)
+TextLabel.Font = Enum.Font.Fantasy
+TextLabel.Text = "AckroyJR"
+TextLabel.TextColor3 = Color3.new(0.996078, 0.996078, 0.996078)
+TextLabel.TextSize = 14
+
+main.Draggable = true
+
+locs.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(384, 948, -269)
+
+off.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(574, 34, 410)
+end)
+end)

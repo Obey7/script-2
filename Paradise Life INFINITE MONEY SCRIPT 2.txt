@@ -1,0 +1,17 @@
+--Made by Gerden feemen#2146
+--https://v3rmillion.net/member.php?action=profile&uid=823704
+
+while true do
+local args = {
+   [1] = "ClaimCase",
+}
+
+game:GetService("ReplicatedStorage").ClientFunction:InvokeServer(unpack(args))
+wait(0.1)
+local args = {
+   [1] = "ClaimCase",
+}
+
+game:GetService("ReplicatedStorage").ClientFunction:InvokeServer(unpack(args))
+wait(0.1)
+end

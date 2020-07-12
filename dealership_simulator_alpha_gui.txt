@@ -1,0 +1,126 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Exploit = Instance.new("ScreenGui")
+local login = Instance.new("Frame")
+local titleframe = Instance.new("Frame")
+local Submit = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local main = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local FLY = Instance.new("TextButton")
+
+--Properties:
+
+Exploit.Name = "Exploit"
+Exploit.Parent = game.CoreGui
+
+login.Name = "login"
+login.Parent = Exploit
+login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+login.BorderSizePixel = 9
+login.Position = UDim2.new(0.394530416, 0, 0.259357452, 0)
+login.Size = UDim2.new(0, 344, 0, 362)
+login.Draggable = true
+
+titleframe.Name = "title frame"
+titleframe.Parent = login
+titleframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titleframe.Size = UDim2.new(0, 344, 0, 64)
+
+Submit.Name = "Submit"
+Submit.Parent = titleframe
+Submit.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+Submit.Position = UDim2.new(0.0988372117, 0, 3.65625, 0)
+Submit.Size = UDim2.new(0, 276, 0, 96)
+Submit.Font = Enum.Font.SourceSans
+Submit.Text = "Submit"
+Submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Submit.TextSize = 30.000
+Submit.TextWrapped = true
+Submit.MouseButton1Down:connect(function()
+	login.Visible = false
+	main.Visible = true
+end)
+
+TextLabel.Parent = titleframe
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0319767557, 0, 1.20536947, 0)
+TextLabel.Size = UDim2.new(0, 117, 0, 31)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made By LukyTripel"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = titleframe
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.0232558176, 0, 1.734375, 0)
+TextLabel_2.Size = UDim2.new(0, 157, 0, 22)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "My Discord: LukyTripel#7601"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = titleframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.0232558101, 0, 2.078125, 0)
+TextLabel_3.Size = UDim2.new(0, 230, 0, 30)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Discord Server: https://discord.gg/JmgEVW7"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+Title.Name = "Title"
+Title.Parent = login
+Title.BackgroundColor3 = Color3.fromRGB(99, 98, 98)
+Title.BorderColor3 = Color3.fromRGB(63, 63, 63)
+Title.BorderSizePixel = 5
+Title.Position = UDim2.new(-2.79396772e-09, 0, 0, 0)
+Title.Size = UDim2.new(0, 344, 0, 64)
+Title.Font = Enum.Font.SciFi
+Title.Text = "Login"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 35.000
+
+main.Name = "main"
+main.Parent = Exploit
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderSizePixel = 3
+main.Position = UDim2.new(0.833307981, 0, 0.626732051, 0)
+main.Size = UDim2.new(0, 240, 0, 267)
+main.Visible = false
+main.Draggable = true
+
+TextLabel_4.Parent = main
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BorderSizePixel = 2
+TextLabel_4.Position = UDim2.new(0.00416666688, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 239, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Dealership Simulator Gui"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 27.000
+TextLabel_4.TextWrapped = true
+
+FLY.Name = "FLY"
+FLY.Parent = main
+FLY.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+FLY.Position = UDim2.new(0.0832911208, 0, 0.329588026, 0)
+FLY.Size = UDim2.new(0, 200, 0, 104)
+FLY.Font = Enum.Font.SourceSans
+FLY.Text = "INFINITE CASH"
+FLY.TextColor3 = Color3.fromRGB(0, 0, 0)
+FLY.TextSize = 30.000
+FLY.MouseButton1Down:connect(function()
+local plr = game:GetService("Players").LocalPlayer
+game.ReplicatedStorage.PlayerMoneyUpdate[plr.Name]:FireServer(999999999999)	
+end)

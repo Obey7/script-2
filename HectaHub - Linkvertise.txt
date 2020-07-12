@@ -1,0 +1,10 @@
+--[[ 
+   __ __            __          __ __         __ 
+  / // / ___  ____ / /_ ___ _  / // / __ __  / / 
+ / _  / / -_)/ __// __// _ `/ / _  / / // / / _ \
+/_//_/  \__/ \__/ \__/ \_,_/ /_//_/  \_,_/ /_.__/
+                                                 
+Script Made By Lil-_French_-21#5434
+https://discord.gg/2m8Parf ]]
+
+loadstring(game:HttpGet("https://pastebin.com/raw/JmJUbaBS"))();

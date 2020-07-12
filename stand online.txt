@@ -1,0 +1,743 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local standassupnigga = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local tpallitems = Instance.new("TextButton")
+local section = Instance.new("TextButton")
+local frame = Instance.new("Frame")
+local AutoPunch = Instance.new("TextButton")
+local section_2 = Instance.new("TextButton")
+local Robloxpain = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local VampireQuest = Instance.new("TextButton")
+local BruteQuest = Instance.new("TextButton")
+local GolemQuest = Instance.new("TextButton")
+local QuestSection = Instance.new("TextButton")
+local WereWolfQuest = Instance.new("TextButton")
+local ThugQuest = Instance.new("TextButton")
+local robloxpain = Instance.new("TextButton")
+local GolemQuest_2 = Instance.new("TextButton")
+local EspItems = Instance.new("TextButton")
+local draggablepart = Instance.new("TextButton")
+local standonline = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local farmvam = Instance.new("TextButton")
+local FarmBrute = Instance.new("TextButton")
+local FarmGolem = Instance.new("TextButton")
+local section_3 = Instance.new("TextButton")
+local farmwerewolf = Instance.new("TextButton")
+local Farmthug = Instance.new("TextButton")
+local robloxpain_2 = Instance.new("TextButton")
+local runService = game:GetService('RunService')
+local Stepped
+ThugFarming = false
+ThuFarming = false
+zomFarming = false
+wolfsFarming = false
+VampFarming = false
+GolemFarming = false
+
+--Properties:
+standassupnigga.Name = "stand ass up nigga"
+standassupnigga.Parent = game.CoreGui
+
+MainFrame.Name = "Main Frame"
+MainFrame.Parent = standassupnigga
+MainFrame.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+MainFrame.BorderColor3 = Color3.new(0, 0, 0)
+MainFrame.BorderSizePixel = 3
+MainFrame.Position = UDim2.new(0.195208535, 0, 0.131377518, 0)
+MainFrame.Size = UDim2.new(0, 216, 0, 142)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+tpallitems.Name = "tp all items"
+tpallitems.Parent = MainFrame
+tpallitems.BackgroundColor3 = Color3.new(0, 0, 0)
+tpallitems.BorderColor3 = Color3.new(0, 0, 0)
+tpallitems.BorderSizePixel = 3
+tpallitems.Position = UDim2.new(0.0595702268, 0, 0.405881673, 0)
+tpallitems.Size = UDim2.new(0, 191, 0, 26)
+tpallitems.AutoButtonColor = false
+tpallitems.Font = Enum.Font.Fantasy
+tpallitems.Text = "Tp All Items"
+tpallitems.TextColor3 = Color3.new(1, 0.333333, 1)
+tpallitems.TextScaled = true
+tpallitems.TextSize = 14
+tpallitems.TextWrapped = true
+tpallitems.MouseButton1Down:connect(function() 
+function bring(part)
+part.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+end
+
+for i, v in pairs(Workspace:GetChildren()) do
+if v.ClassName == "Tool" then
+if v:FindFirstChild("Handle") then
+bring(v.Handle)
+end
+end
+for i, v in pairs(v:GetChildren()) do
+if v.ClassName == "Tool" then
+if v:FindFirstChild("Handle") then
+bring(v.Handle)
+end
+end
+if v.Name == "Ceasers" then
+if v:FindFirstChild("Part") then
+bring(v.Part)
+end
+end
+if v.Name == "Mask" then
+if v:FindFirstChild("Mask") then
+bring(v.Mask)
+end
+end
+end
+end
+end)
+
+section.Name = "section"
+section.Parent = MainFrame
+section.BackgroundColor3 = Color3.new(0, 0, 0)
+section.BorderColor3 = Color3.new(0, 0, 0)
+section.BorderSizePixel = 3
+section.Position = UDim2.new(0.00462962966, 0, -0.00328502804, 0)
+section.Size = UDim2.new(0, 215, 0, 26)
+section.AutoButtonColor = false
+section.Font = Enum.Font.Fantasy
+section.Text = "Section 1"
+section.TextColor3 = Color3.new(1, 0.333333, 1)
+section.TextScaled = true
+section.TextSize = 14
+section.TextWrapped = true
+
+frame.Name = "frame"
+frame.Parent = MainFrame
+frame.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+frame.BorderColor3 = Color3.new(0, 0, 0)
+frame.BorderSizePixel = 3
+frame.Position = UDim2.new(-0.00506916642, 0, 1.03361237, 0)
+frame.Size = UDim2.new(0, 216, 0, 96)
+
+AutoPunch.Name = "Auto Punch"
+AutoPunch.Parent = frame
+AutoPunch.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoPunch.BorderColor3 = Color3.new(0, 0, 0)
+AutoPunch.BorderSizePixel = 3
+AutoPunch.Position = UDim2.new(0.0549405962, 0, 0.419966161, 0)
+AutoPunch.Size = UDim2.new(0, 191, 0, 26)
+AutoPunch.AutoButtonColor = false
+AutoPunch.Font = Enum.Font.Fantasy
+AutoPunch.Text = "Auto Punch"
+AutoPunch.TextColor3 = Color3.new(1, 0, 1)
+AutoPunch.TextScaled = true
+AutoPunch.TextSize = 14
+AutoPunch.TextWrapped = true
+AutoPunch.MouseButton1Down:connect(function() 
+while true do 
+wait(0.2)
+local Event = game:GetService("Players").LocalPlayer.PlayerGui.CoreGUI.Events.Punch
+Event:FireServer()
+end
+end)
+
+section_2.Name = "section"
+section_2.Parent = frame
+section_2.BackgroundColor3 = Color3.new(0, 0, 0)
+section_2.BorderColor3 = Color3.new(0, 0, 0)
+section_2.BorderSizePixel = 3
+section_2.Position = UDim2.new(0.00462962966, 0, -0.00328502804, 0)
+section_2.Size = UDim2.new(0, 215, 0, 26)
+section_2.AutoButtonColor = false
+section_2.Font = Enum.Font.Fantasy
+section_2.Text = "Section 2"
+section_2.TextColor3 = Color3.new(1, 0, 1)
+section_2.TextScaled = true
+section_2.TextSize = 14
+section_2.TextWrapped = true
+
+Robloxpain.Name = "Robloxpain"
+Robloxpain.Parent = frame
+Robloxpain.BackgroundColor3 = Color3.new(0, 0, 0)
+Robloxpain.BorderColor3 = Color3.new(0, 0, 0)
+Robloxpain.BorderSizePixel = 3
+Robloxpain.Position = UDim2.new(0, 0, 0.815799415, 0)
+Robloxpain.Size = UDim2.new(0, 216, 0, 23)
+Robloxpain.AutoButtonColor = false
+Robloxpain.Font = Enum.Font.Fantasy
+Robloxpain.Text = "Roblox Pain"
+Robloxpain.TextColor3 = Color3.new(1, 0, 1)
+Robloxpain.TextScaled = true
+Robloxpain.TextSize = 14
+Robloxpain.TextWrapped = true
+
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(1.9893266, 0, 0, 0)
+Frame.Size = UDim2.new(0, 214, 0, 312)
+
+VampireQuest.Name = "Vampire Quest"
+VampireQuest.Parent = Frame
+VampireQuest.BackgroundColor3 = Color3.new(0, 0, 0)
+VampireQuest.BorderColor3 = Color3.new(0, 0, 0)
+VampireQuest.BorderSizePixel = 3
+VampireQuest.Position = UDim2.new(0.0490994826, 0, 0.499808073, 0)
+VampireQuest.Size = UDim2.new(0, 191, 0, 26)
+VampireQuest.AutoButtonColor = false
+VampireQuest.Font = Enum.Font.Fantasy
+VampireQuest.Text = "Vampire Quest"
+VampireQuest.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+VampireQuest.TextScaled = true
+VampireQuest.TextSize = 14
+VampireQuest.TextWrapped = true
+VampireQuest.MouseButton1Down:connect(function() 
+for _,v in pairs(game.Workspace:GetDescendants()) do
+if string.find(v.Name, "Vampire Quest") and v:FindFirstChild("HumanoidRootPart") then
+v:FindFirstChild("HumanoidRootPart").Anchored = true
+v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3)
+end
+end
+end)
+
+BruteQuest.Name = "Brute Quest"
+BruteQuest.Parent = Frame
+BruteQuest.BackgroundColor3 = Color3.new(0, 0, 0)
+BruteQuest.BorderColor3 = Color3.new(0, 0, 0)
+BruteQuest.BorderSizePixel = 3
+BruteQuest.Position = UDim2.new(0.0479833297, 0, 0.36824283, 0)
+BruteQuest.Size = UDim2.new(0, 191, 0, 26)
+BruteQuest.AutoButtonColor = false
+BruteQuest.Font = Enum.Font.Fantasy
+BruteQuest.Text = "Brute Quest"
+BruteQuest.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+BruteQuest.TextScaled = true
+BruteQuest.TextSize = 14
+BruteQuest.TextWrapped = true
+BruteQuest.MouseButton1Down:connect(function() 
+for _,v in pairs(game.Workspace:GetDescendants()) do
+if string.find(v.Name, "Brute Quest") and v:FindFirstChild("HumanoidRootPart") then
+v:FindFirstChild("HumanoidRootPart").Anchored = true
+v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3)
+end
+end
+end)
+
+GolemQuest.Name = "Golem Quest"
+GolemQuest.Parent = Frame
+GolemQuest.BackgroundColor3 = Color3.new(0, 0, 0)
+GolemQuest.BorderColor3 = Color3.new(0, 0, 0)
+GolemQuest.BorderSizePixel = 3
+GolemQuest.Position = UDim2.new(0.0526562482, 0, 0.225260168, 0)
+GolemQuest.Size = UDim2.new(0, 191, 0, 26)
+GolemQuest.AutoButtonColor = false
+GolemQuest.Font = Enum.Font.Fantasy
+GolemQuest.Text = "Golem Quest"
+GolemQuest.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+GolemQuest.TextScaled = true
+GolemQuest.TextSize = 14
+GolemQuest.TextWrapped = true
+GolemQuest.MouseButton1Down:connect(function() 
+for _,v in pairs(game.Workspace:GetDescendants()) do
+if string.find(v.Name, "Golem Quest") and v:FindFirstChild("HumanoidRootPart") then
+v:FindFirstChild("HumanoidRootPart").Anchored = true
+v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3)
+end
+end
+end)
+
+QuestSection.Name = "Quest Section"
+QuestSection.Parent = Frame
+QuestSection.BackgroundColor3 = Color3.new(0, 0, 0)
+QuestSection.BorderColor3 = Color3.new(0, 0, 0)
+QuestSection.BorderSizePixel = 3
+QuestSection.Position = UDim2.new(-0.00281250477, 0, 0.000290647149, 0)
+QuestSection.Size = UDim2.new(0, 215, 0, 26)
+QuestSection.AutoButtonColor = false
+QuestSection.Font = Enum.Font.Fantasy
+QuestSection.Text = "Quest's Section 4"
+QuestSection.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+QuestSection.TextScaled = true
+QuestSection.TextSize = 14
+QuestSection.TextWrapped = true
+
+
+WereWolfQuest.Name = "WereWolf Quest"
+WereWolfQuest.Parent = Frame
+WereWolfQuest.BackgroundColor3 = Color3.new(0, 0, 0)
+WereWolfQuest.BorderColor3 = Color3.new(0, 0, 0)
+WereWolfQuest.BorderSizePixel = 3
+WereWolfQuest.Position = UDim2.new(0.0479833297, 0, 0.634610474, 0)
+WereWolfQuest.Size = UDim2.new(0, 191, 0, 26)
+WereWolfQuest.AutoButtonColor = false
+WereWolfQuest.Font = Enum.Font.Fantasy
+WereWolfQuest.Text = "WereWolf Quest"
+WereWolfQuest.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+WereWolfQuest.TextScaled = true
+WereWolfQuest.TextSize = 14
+WereWolfQuest.TextWrapped = true
+WereWolfQuest.MouseButton1Down:connect(function() 
+for _,v in pairs(game.Workspace:GetDescendants()) do
+if string.find(v.Name, "Werewolf Quest") and v:FindFirstChild("HumanoidRootPart") then
+v:FindFirstChild("HumanoidRootPart").Anchored = true
+v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3)
+end
+end
+end)
+
+ThugQuest.Name = "Thug Quest"
+ThugQuest.Parent = Frame
+ThugQuest.BackgroundColor3 = Color3.new(0, 0, 0)
+ThugQuest.BorderColor3 = Color3.new(0, 0, 0)
+ThugQuest.BorderSizePixel = 3
+ThugQuest.Position = UDim2.new(0.0526562259, 0, 0.76748544, 0)
+ThugQuest.Size = UDim2.new(0, 191, 0, 26)
+ThugQuest.AutoButtonColor = false
+ThugQuest.Font = Enum.Font.Fantasy
+ThugQuest.Text = "Thug Quest"
+ThugQuest.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+ThugQuest.TextScaled = true
+ThugQuest.TextSize = 14
+ThugQuest.TextWrapped = true
+ThugQuest.MouseButton1Down:connect(function() 
+for _,v in pairs(game.Workspace:GetDescendants()) do
+if string.find(v.Name, "Thug Quest") and v:FindFirstChild("HumanoidRootPart") then
+v:FindFirstChild("HumanoidRootPart").Anchored = true
+v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3)
+end
+end
+end)
+
+robloxpain.Name = "robloxpain"
+robloxpain.Parent = Frame
+robloxpain.BackgroundColor3 = Color3.new(0, 0, 0)
+robloxpain.BorderColor3 = Color3.new(0, 0, 0)
+robloxpain.BorderSizePixel = 3
+robloxpain.Position = UDim2.new(-0.00467289705, 0, 0.935208261, 0)
+robloxpain.Size = UDim2.new(0, 215, 0, 25)
+robloxpain.AutoButtonColor = false
+robloxpain.Font = Enum.Font.Fantasy
+robloxpain.Text = "Roblox Pain"
+robloxpain.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+robloxpain.TextScaled = true
+robloxpain.TextSize = 14
+robloxpain.TextWrapped = true
+
+GolemQuest_2.Name = "Golem Quest"
+GolemQuest_2.Parent = Frame
+GolemQuest_2.BackgroundColor3 = Color3.new(0, 0, 0)
+GolemQuest_2.BackgroundTransparency = 1
+GolemQuest_2.BorderColor3 = Color3.new(0, 0, 0)
+GolemQuest_2.BorderSizePixel = 3
+GolemQuest_2.Position = UDim2.new(-1.05949354, 0, -0.110297129, 0)
+GolemQuest_2.Size = UDim2.new(0, 271, 0, 26)
+GolemQuest_2.AutoButtonColor = false
+GolemQuest_2.Font = Enum.Font.Fantasy
+GolemQuest_2.Text = ""
+GolemQuest_2.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+GolemQuest_2.TextScaled = true
+GolemQuest_2.TextSize = 14
+GolemQuest_2.TextWrapped = true
+
+EspItems.Name = "Esp Items"
+EspItems.Parent = MainFrame
+EspItems.BackgroundColor3 = Color3.new(0, 0, 0)
+EspItems.BorderColor3 = Color3.new(0, 0, 0)
+EspItems.BorderSizePixel = 3
+EspItems.Position = UDim2.new(0.0595702268, 0, 0.7157408, 0)
+EspItems.Size = UDim2.new(0, 191, 0, 26)
+EspItems.AutoButtonColor = false
+EspItems.Font = Enum.Font.Fantasy
+EspItems.Text = "Esp Items"
+EspItems.TextColor3 = Color3.new(1, 0.333333, 1)
+EspItems.TextScaled = true
+EspItems.TextSize = 14
+EspItems.TextWrapped = true
+EspItems.MouseButton1Down:connect(function()
+if ThugFarming == false then
+ThugFarming = true
+Esp.BackgroundColor3 = Color3.fromRGB(52, 255, 21)
+else
+ThugFarming = false
+Esp.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stepped:Disconnect()
+end
+-- Dont Forget To Vouch :)
+-- Credits : https://v3rmillion.net/showthread.php?tid=658540
+-- Stands Online v004 Script
+while true do
+local a = Instance.new("BillboardGui")
+local b = Instance.new("BillboardGui")
+local c = Instance.new("BillboardGui")
+local d = Instance.new("BillboardGui")
+local e = Instance.new("BillboardGui")
+local l = Instance.new("ScreenGui")
+for i, v in pairs(game.Workspace:GetChildren()) do
+if v:FindFirstChild("ReqArrow") then 
+a.Parent = v.ReqArrow.Handle
+a.AlwaysOnTop = true
+a.Size = UDim2.new(0,50,0,50)
+local aa = Instance.new("TextBox")
+aa.BackgroundColor3 = Color3.new(255,255,0)
+aa.BackgroundTransparency = 0.7
+aa.Text = "ReqArrow"
+aa.Size = UDim2.new(1,0,1,0)
+aa.Parent = a
+local player = game.Players.LocalPlayer
+l.Parent = player.PlayerGui
+local ll = Instance.new("TextButton")
+ll.Parent = l
+ll.Size = UDim2.new(0,100,0,100)
+ll.Position = UDim2.new(0,0,0.5,0)
+ll.Text = "Teleport to ReqArrow"
+ll.TextScaled = true
+ll.MouseButton1Click:connect(function() 
+player.Character:MoveTo(v.ReqArrow.Handle.Position)
+end)
+end
+if v:FindFirstChild("Rokakaka") then 
+b.Parent = v.Rokakaka.Handle
+b.AlwaysOnTop = true
+b.Size = UDim2.new(0,50,0,50)
+local bb = Instance.new("TextBox")
+bb.BackgroundColor3 = Color3.new(255,0,0)
+bb.BackgroundTransparency = 0.7
+bb.Text = "Rokakaka"
+bb.Size = UDim2.new(1,0,1,0)
+bb.Parent = b
+local player = game.Players.LocalPlayer
+l.Parent = player.PlayerGui
+local ll = Instance.new("TextButton")
+ll.Parent = l
+ll.Size = UDim2.new(0,100,0,100)
+ll.Position = UDim2.new(0,0,0.6,0)
+ll.Text = "Teleport to rokakaka"
+ll.TextScaled = true
+ll.MouseButton1Click:connect(function() 
+player.Character:MoveTo(v.Rokakaka.Handle.Position)
+end)
+end
+if v:FindFirstChild("Mask") then 
+c.Parent = v.Mask.Mask
+c.AlwaysOnTop = true
+c.Size = UDim2.new(0,50,0,50)
+local cc = Instance.new("TextBox")
+cc.BackgroundColor3 = Color3.new(50,50,50)
+cc.BackgroundTransparency = 0.7
+cc.Text = "Mask"
+cc.Size = UDim2.new(1,0,1,0)
+cc.Parent = c
+end
+if v:FindFirstChild("Dio's Diary") then 
+d.Parent = v["Dio's Diary"].Handle
+d.AlwaysOnTop = true
+d.Size = UDim2.new(0,50,0,50)
+local dd = Instance.new("TextBox")
+dd.BackgroundColor3 = Color3.new(255,255,255)
+dd.BackgroundTransparency = 0.7
+dd.Text = "Dio's Diary"
+dd.Size = UDim2.new(1,0,1,0)
+dd.Parent = d
+local player = game.Players.LocalPlayer
+l.Parent = player.PlayerGui
+local ll = Instance.new("TextButton")
+ll.Parent = l
+ll.Size = UDim2.new(0,100,0,100)
+ll.Position = UDim2.new(0,0,0.7,0)
+ll.Text = "Teleport to diray"
+ll.TextScaled = true
+ll.MouseButton1Click:connect(function() 
+player.Character:MoveTo(v["Dio's Diary"].Handle.Position)
+end)
+end
+if v:FindFirstChild("Ceasers") then 
+e.Parent = v["Ceasers"].Part
+e.AlwaysOnTop = true
+e.Size = UDim2.new(0,50,0,50)
+local ee = Instance.new("TextBox")
+ee.BackgroundColor3 = Color3.new(0,200,255)
+ee.BackgroundTransparency = 0.7
+ee.Text = "Hamon"
+ee.Size = UDim2.new(1,0,1,0)
+ee.Parent = e
+end
+end
+wait(1)
+if a then
+a:Destroy()
+end
+if b then
+b:Destroy()
+end
+if c then
+c:Destroy()
+end
+if d then
+d:Destroy()
+end
+if e then
+e:Destroy()
+end
+if l then
+l:Destroy()
+end
+end
+end)
+
+
+draggablepart.Name = "draggable part"
+draggablepart.Parent = MainFrame
+draggablepart.BackgroundColor3 = Color3.new(0, 0, 0)
+draggablepart.BackgroundTransparency = 1
+draggablepart.BorderColor3 = Color3.new(0, 0, 0)
+draggablepart.BorderSizePixel = 3
+draggablepart.Position = UDim2.new(-0.695059359, 0, 0.173487276, 0)
+draggablepart.Size = UDim2.new(0, 191, 0, 21)
+draggablepart.AutoButtonColor = false
+draggablepart.Font = Enum.Font.Fantasy
+draggablepart.Text = "Draggable -->"
+draggablepart.TextColor3 = Color3.new(1, 0.333333, 1)
+draggablepart.TextScaled = true
+draggablepart.TextSize = 14
+draggablepart.TextWrapped = true
+
+standonline.Name = "stand online"
+standonline.Parent = MainFrame
+standonline.BackgroundColor3 = Color3.new(0, 0, 0)
+standonline.BackgroundTransparency = 0.25
+standonline.BorderColor3 = Color3.new(0, 0, 0)
+standonline.BorderSizePixel = 3
+standonline.Position = UDim2.new(-0.0700594634, 0, 1.87993824, 0)
+standonline.Size = UDim2.new(0, 219, 0, 41)
+standonline.AutoButtonColor = false
+standonline.Font = Enum.Font.Fantasy
+standonline.Text = "Stand Online"
+standonline.TextColor3 = Color3.new(0.333333, 1, 0)
+standonline.TextScaled = true
+standonline.TextSize = 14
+standonline.TextWrapped = true
+
+Frame_2.Parent = MainFrame
+Frame_2.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 3
+Frame_2.Position = UDim2.new(0.998585999, 0, -0.00704225339, 0)
+Frame_2.Size = UDim2.new(0, 214, 0, 313)
+
+farmvam.Name = "farm vam"
+farmvam.Parent = Frame_2
+farmvam.BackgroundColor3 = Color3.new(0, 0, 0)
+farmvam.BorderColor3 = Color3.new(0, 0, 0)
+farmvam.BorderSizePixel = 3
+farmvam.Position = UDim2.new(0.0490994826, 0, 0.499808073, 0)
+farmvam.Size = UDim2.new(0, 191, 0, 26)
+farmvam.AutoButtonColor = false
+farmvam.Font = Enum.Font.Fantasy
+farmvam.Text = "Farm Vampire"
+farmvam.TextColor3 = Color3.new(1, 0.333333, 0)
+farmvam.TextScaled = true
+farmvam.TextSize = 14
+farmvam.TextWrapped = true
+farmvam.MouseButton1Down:connect(function()
+if VampFarming == false then
+VampFarming = true
+farmvam.BackgroundColor3 = Color3.fromRGB(52, 255, 21)
+else
+VampFarming = false
+farmvam.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stepped:Disconnect()
+end
+
+if VampFarming then
+Stepped = runService.Stepped:Connect(function()
+   for i,v in pairs(workspace:GetChildren()) do
+if string.find(v.Name, "Vampire") and v:FindFirstChild("HumanoidRootPart") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame - v.HumanoidRootPart.CFrame.lookVector * 2
+local VirtualUser=game:service'VirtualUser'
+VirtualUser:ClickButton1(Vector2.new())
+end
+end
+end)
+end
+end)
+
+FarmBrute.Name = "Farm Brute"
+FarmBrute.Parent = Frame_2
+FarmBrute.BackgroundColor3 = Color3.new(0, 0, 0)
+FarmBrute.BorderColor3 = Color3.new(0, 0, 0)
+FarmBrute.BorderSizePixel = 3
+FarmBrute.Position = UDim2.new(0.0479833297, 0, 0.36824283, 0)
+FarmBrute.Size = UDim2.new(0, 191, 0, 26)
+FarmBrute.AutoButtonColor = false
+FarmBrute.Font = Enum.Font.Fantasy
+FarmBrute.Text = "Farm Brute"
+FarmBrute.TextColor3 = Color3.new(1, 0.333333, 0)
+FarmBrute.TextScaled = true
+FarmBrute.TextSize = 14
+FarmBrute.TextWrapped = true
+FarmBrute.MouseButton1Down:connect(function()
+if ThugFarming == false then
+ThugFarming = true
+FarmBrute.BackgroundColor3 = Color3.fromRGB(52, 255, 21)
+else
+ThugFarming = false
+FarmBrute.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stepped:Disconnect()
+end
+
+if ThugFarming then
+Stepped = runService.Stepped:Connect(function()
+   for i,v in pairs(workspace:GetChildren()) do
+if string.find(v.Name, "Brute") and v:FindFirstChild("HumanoidRootPart") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame - v.HumanoidRootPart.CFrame.lookVector * 2
+local VirtualUser=game:service'VirtualUser'
+VirtualUser:ClickButton1(Vector2.new())
+end
+end
+end)
+end
+end)
+
+FarmGolem.Name = "Farm Golem"
+FarmGolem.Parent = Frame_2
+FarmGolem.BackgroundColor3 = Color3.new(0, 0, 0)
+FarmGolem.BorderColor3 = Color3.new(0, 0, 0)
+FarmGolem.BorderSizePixel = 3
+FarmGolem.Position = UDim2.new(0.0526562482, 0, 0.225260168, 0)
+FarmGolem.Size = UDim2.new(0, 191, 0, 26)
+FarmGolem.AutoButtonColor = false
+FarmGolem.Font = Enum.Font.Fantasy
+FarmGolem.Text = "Farm Golem"
+FarmGolem.TextColor3 = Color3.new(1, 0.333333, 0)
+FarmGolem.TextScaled = true
+FarmGolem.TextSize = 14
+FarmGolem.TextWrapped = true
+FarmGolem.MouseButton1Down:connect(function()
+if GolemFarming == false then
+GolemFarming = true
+FarmGolem.BackgroundColor3 = Color3.fromRGB(52, 255, 21)
+else
+GolemFarming = false
+FarmGolem.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stepped:Disconnect()
+end
+
+if GolemFarming then
+Stepped = runService.Stepped:Connect(function()
+   for i,v in pairs(workspace:GetChildren()) do
+if string.find(v.Name, "HamonGolem") and v:FindFirstChild("HumanoidRootPart") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame - v.HumanoidRootPart.CFrame.lookVector * 2
+local VirtualUser=game:service'VirtualUser'
+VirtualUser:ClickButton1(Vector2.new())
+end
+end
+end)
+end
+end)
+
+section_3.Name = "section"
+section_3.Parent = Frame_2
+section_3.BackgroundColor3 = Color3.new(0, 0, 0)
+section_3.BorderColor3 = Color3.new(0, 0, 0)
+section_3.BorderSizePixel = 3
+section_3.Position = UDim2.new(-0.00281246589, 0, 0, 0)
+section_3.Size = UDim2.new(0, 215, 0, 26)
+section_3.AutoButtonColor = false
+section_3.Font = Enum.Font.Fantasy
+section_3.Text = "Quest's Section 4"
+section_3.TextColor3 = Color3.new(1, 0.333333, 0)
+section_3.TextScaled = true
+section_3.TextSize = 14
+section_3.TextWrapped = true
+
+farmwerewolf.Name = "farm werewolf"
+farmwerewolf.Parent = Frame_2
+farmwerewolf.BackgroundColor3 = Color3.new(0, 0, 0)
+farmwerewolf.BorderColor3 = Color3.new(0, 0, 0)
+farmwerewolf.BorderSizePixel = 3
+farmwerewolf.Position = UDim2.new(0.0479833297, 0, 0.634610474, 0)
+farmwerewolf.Size = UDim2.new(0, 191, 0, 26)
+farmwerewolf.AutoButtonColor = false
+farmwerewolf.Font = Enum.Font.Fantasy
+farmwerewolf.Text = "Farm WereWolf"
+farmwerewolf.TextColor3 = Color3.new(1, 0.333333, 0)
+farmwerewolf.TextScaled = true
+farmwerewolf.TextSize = 14
+farmwerewolf.TextWrapped = true
+farmwerewolf.MouseButton1Down:connect(function()
+if wolfsFarming == false then
+wolfsFarming = true
+farmwerewolf.BackgroundColor3 = Color3.fromRGB(52, 255, 21)
+else
+wolfsFarming = false
+farmwerewolf.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stepped:Disconnect()
+end
+
+if wolfsFarming then
+Stepped = runService.Stepped:Connect(function()
+   for i,v in pairs(workspace:GetChildren()) do
+if string.find(v.Name, "Werewolf") and v:FindFirstChild("HumanoidRootPart") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame - v.HumanoidRootPart.CFrame.lookVector * 2
+local VirtualUser=game:service'VirtualUser'
+VirtualUser:ClickButton1(Vector2.new())
+end
+end
+end)
+end
+end)
+
+Farmthug.Name = "Farm thug"
+Farmthug.Parent = Frame_2
+Farmthug.BackgroundColor3 = Color3.new(0, 0, 0)
+Farmthug.BorderColor3 = Color3.new(0, 0, 0)
+Farmthug.BorderSizePixel = 3
+Farmthug.Position = UDim2.new(0.0526562259, 0, 0.770741761, 0)
+Farmthug.Size = UDim2.new(0, 191, 0, 26)
+Farmthug.AutoButtonColor = false
+Farmthug.Font = Enum.Font.Fantasy
+Farmthug.Text = "Farm Thug"
+Farmthug.TextColor3 = Color3.new(1, 0.333333, 0)
+Farmthug.TextScaled = true
+Farmthug.TextSize = 14
+Farmthug.TextWrapped = true
+Farmthug.MouseButton1Down:connect(function()
+if ThuFarming == false then
+ThuFarming = true
+Farmthug.BackgroundColor3 = Color3.fromRGB(52, 255, 21)
+else
+ThuFarming = false
+Farmthug.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stepped:Disconnect()
+end
+
+if ThuFarming then
+Stepped = runService.Stepped:Connect(function()
+   for i,v in pairs(workspace:GetChildren()) do
+if string.find(v.Name, "Thug") and v:FindFirstChild("HumanoidRootPart") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame - v.HumanoidRootPart.CFrame.lookVector * 2
+local VirtualUser=game:service'VirtualUser'
+VirtualUser:ClickButton1(Vector2.new())
+end
+end
+end)
+end
+end)
+
+robloxpain_2.Name = "robloxpain"
+robloxpain_2.Parent = Frame_2
+robloxpain_2.BackgroundColor3 = Color3.new(0, 0, 0)
+robloxpain_2.BorderColor3 = Color3.new(0, 0, 0)
+robloxpain_2.BorderSizePixel = 3
+robloxpain_2.Position = UDim2.new(-0.00467289705, 0, 0.935208261, 0)
+robloxpain_2.Size = UDim2.new(0, 215, 0, 25)
+robloxpain_2.AutoButtonColor = false
+robloxpain_2.Font = Enum.Font.Fantasy
+robloxpain_2.Text = "Roblox Pain"
+robloxpain_2.TextColor3 = Color3.new(1, 0.333333, 0)
+robloxpain_2.TextScaled = true
+robloxpain_2.TextSize = 14
+robloxpain_2.TextWrapped = true
+-- Scripts:

@@ -1,0 +1,33 @@
+[0603/204046.467:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/204051.436:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0603/204206.430:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0603/210350.764:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/215738.111:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/220117.051:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0603/220823.602:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/231017.039:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/232239.296:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/233343.138:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0603/233641.075:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/233827.750:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/234400.761:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/234625.450:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/234715.994:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0603/234805.713:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0604/105651.114:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0604/163128.495:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0604/164011.305:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0604/164227.390:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0604/164503.695:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0604/164537.559:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0604/164556.163:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0604/175654.302:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0605/122457.339:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0607/140027.964:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0608/220618.214:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0608/220634.976:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0608/220854.496:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0608/220934.961:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0608/220949.783:INFO:CONSOLE(7832)] "Uncaught TypeError: Cannot read property 'match' of null", source: file:///C:/Users/Nasre/OneDrive/Desktop/Synapse-X/bin/ace/ace.js (7832)
+[0612/181719.706:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
+[0614/214726.842:ERROR:viz_main_impl.cc(159)] Exiting GPU process due to errors during initialization
